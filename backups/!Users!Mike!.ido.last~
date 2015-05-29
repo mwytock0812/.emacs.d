@@ -1,0 +1,319 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/Mike/R/mosquitoes/" . "scripts/")
+ ("/Users/Mike/R/books/r_prog_for_data_sci/" . "03_using_text_and_binary_formats/")
+ ("/Users/Mike/R/books/" . "r_prog_for_data_sci/")
+ ("/Users/Mike/R/" . "mosquitoes/")
+ ("/Users/Mike/.emacs.d/.cask/24.5.1/elpa/" . "polymode-20150430.934/")
+ ("/Users/Mike/.emacs.d/.cask/24.5.1/" . "elpa/")
+ ("/Users/Mike/.emacs.d/.cask/24.3.1/" . "bootstrap/")
+ ("/Users/Mike/.emacs.d/.cask/" . "24.5.1/")
+ ("/Users/Mike/Documents/Projects/prac_data/0246OS_Code & Data/Chapter02/" . "data/")
+ ("/Users/Mike/Documents/Projects/prac_data/0246OS_Code & Data/" . "Chapter02/")
+ ("/Users/Mike/Documents/Projects/prac_data/" . "0246OS_Code & Data/")
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/views/" . "patients/")
+ ("/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/Project2/StallManager/" . "app/")
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/" . "models/")
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/controllers/" . "concerns/")
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/" . "app/")
+ ("/Users/Mike/Documents/OMSCS/SDP/Assignments/" . "Assignment6/")
+ ("/Users/Mike/Documents/OMSCS/HI/patient_data/" . "3.358020000-01/")
+ ("/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/Project2/" . "D2/")
+ ("/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/" . "Project2/")
+ ("/Users/Mike/Documents/OMSCS/SDP/" . "6300Spring15Team38/")
+ ("/Users/Mike/Documents/OMSCS/HI/" . "handoff/")
+ ("/usr/local/" . "bin/")
+ ("/usr/" . "local/")
+ ("/Users/Mike/git/" . "burlap/")
+ ("/Users/Mike/Documents/OMSCS/ML/Projects/Randomized Optimization/" . "data/")
+ ("/Users/Mike/Documents/OMSCS/ML/ABAGAIL/src/opt/" . "test/")
+ ("/Users/Mike/Documents/OMSCS/ML/ABAGAIL/src/" . "opt/")
+ ("/Users/Mike/Documents/OMSCS/ML/ABAGAIL/" . "src/")
+ ("/Users/Mike/Documents/OMSCS/ML/Projects/Supervised Learning/" . "wilt/")
+ ("/Users/Mike/Documents/OMSCS/ML/Projects/" . "Randomized Optimization/")
+ ("/Users/Mike/Documents/OMSCS/ML/" . "Projects/")
+ ("/Users/Mike/Documents/OMSCS/" . "HI/")
+ ("/" . "Users/")
+ ("/Users/Mike/Documents/Projects/" . "hfj/")
+ ("/Users/" . "Mike/")
+ ("/Users/Mike/.ipython/" . "profile_default/")
+ ("/Users/Mike/.emacs.d/" . ".cask/")
+ ("/Users/Mike/" . "R/")
+ ("/Users/Mike/Documents/" . "Projects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/Mike/"
+ "/Users/Mike/R/mosquitoes/scripts/"
+ "/Users/Mike/R/books/r_prog_for_data_sci/04_interfaces_to_the_outside_world/"
+ "/Users/Mike/R/books/r_prog_for_data_sci/03_using_text_and_binary_formats/"
+ "/Users/Mike/R/books/r_prog_for_data_sci/02_getting_data_in_and_out/"
+ "/Users/Mike/Documents/Projects/hfj/"
+ "/Users/Mike/.emacs.d/"
+ "/Users/Mike/R/"
+ "/Users/Mike/R/books/r_prog_for_data_sci/01_nuts_and_bolts/"
+ "/Users/Mike/emacs.d/"
+ "/Users/Mike/Documents/Projects/prac_data/0246OS_Code & Data/Chapter02/data/"
+ "/Users/Mike/Documents/OMSCS/HI/handoff/app/models/"
+ "/Users/Mike/Documents/OMSCS/HI/handoff/app/controllers/"
+ "/Users/Mike/Documents/OMSCS/HI/handoff/app/views/patients/"
+ "/Users/Mike/Documents/OMSCS/HI/handoff/app/views/handoffs/"
+ "/Users/Mike/Documents/OMSCS/HI/handoff/app/views/layouts/"
+ "/Users/Mike/Documents/OMSCS/HI/"
+ "/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/Project2/StallManager/app/"
+ "/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/Project2/D2/"
+ "/Users/Mike/Documents/OMSCS/HI/Rails/"
+ "/Users/Mike/Documents/OMSCS/HI/handoff/bin/"
+ "/Users/Mike/Documents/OMSCS/HI/patient_data/3.358020000-01/"
+ "/Users/Mike/Documents/OMSCS/HI/patient_data/"
+ "/Users/Mike/Documents/OMSCS/SDP/Assignments/Assignment6/"
+ "/Users/Mike/Documents/OMSCS/HI/patient_data/conditions/"
+ "/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/Project2/"
+ "/Users/Mike/Documents/OMSCS/HI/Assignments/"
+ "/usr/local/bin/"
+ "/Users/Mike/git/burlap/"
+ "/Users/Mike/Documents/OMSCS/ML/Projects/Unsupervised Learning/"
+ "/Users/Mike/Documents/OMSCS/ML/Projects/Randomized Optimization/"
+ "/Users/Mike/Documents/OMSCS/ML/ABAGAIL/src/opt/test/"
+ "/Users/Mike/Documents/OMSCS/ML/ABAGAIL/"
+ "/Users/Mike/Documents/OMSCS/ML/ABAGAIL/src/opt/ga/"
+ "/Users/Mike/Documents/OMSCS/ML/ABAGAIL/src/opt/"
+ "/Users/Mike/Documents/OMSCS/ML/Projects/Randomized Optimization/data/"
+ "/Users/Mike/Documents/OMSCS/ML/ABAGAIL/jython/"
+ "/Users/Mike/Documents/OMSCS/ML/Projects/Supervised Learning/wilt/"
+ "/Users/Mike/Documents/"
+ "/Users/Mike/Documents/OMSCS/ML/Projects/Supervised Learning/bikes/"
+ "/Users/Mike/Documents/OMSCS/ML/"
+ "/Users/Mike/Desktop/ML Project Data/Covertype/"
+ "/Users/Mike/Documents/Projects/osm_dc/"
+ "/Users/Mike/Desktop/DWMDB/"
+ "/Users/Mike/.emacs.d/settings/"
+ "/Users/Mike/.terminfo/"
+ "/Users/Mike/bin/"
+ "/usr/bin/"
+ "/Users/Mike/Documents/pic/"
+ "/Users/Mike/Documents/dip/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".zshrc"
+ "log_reg.R"
+ "explore.Rmd"
+ "notes.Rmd"
+ "MyDrawPanel.java"
+ "SimpleGui1B.java"
+ "SimpleGui1.java"
+ "init.el"
+ "Cask"
+ "SimpleGui.java"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/Mike/" (21854 10161 0 0) "zsh_demo/" "which" "wekafiles/" "weka.log" "VirtualBox VMs/" "stallmanager.jks" "SqlViewerHistory.props" "Sites/" "SimpleCLI.props" "R/" "Public/" "Pictures/" "Music/" "Movies/" "mongod.lock" "macports/" "Library/" "jython2.5.3/" "ipython/" "IdeaProjects/" "Google Drive/" "git-prompt.sh" "git-completion.bash" "git/" "exercism/" "Envs/" "emacs.d/" "emacs-jedi/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Creative Cloud Files (unknown)/" "Creative Cloud Files (archived)/" "Creative Cloud Files/" "Cask" "Calibre Library/" "bower_components/" "bin/" "Applications/" "anaconda/" ".zshrc~" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zprofile" ".zlogin" ".zcompdump-Michael Wytock’s MacBook-5.0.5" ".zcompdump-Michael Wytock’s MacBook-5.0.2" ".zcompdump-MacBook Pro-5.0.5" ".Xauthority" ".virtualenvs/" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".tor/" ".terminfo/" ".swt/" ".subversion/" ".ssh/" ".sqlite_history" ".spyder2/" ".spumux/" ".sh_history" ".serverauth.30845" ".rvm/" ".rstudio-desktop/" ".rnd" ".Rhistory" ".regetronhist" ".RData" ".rbenv/" ".Rapp.history" ".python_history" ".python-eggs/" ".pry_history" ".profile" ".pip/" ".npm/" ".nchsoftware/" ".mplayer/" ".mongorc.js" ".mkshrc" ".matplotlib/" ".local/" ".lesshst" ".keepassx/" ".julia_history" ".julia/" ".jline-jython.history" ".jah/" ".irbrc" ".ipython/" ".ipynb_checkpoints/" ".inkscape-etc/" ".ido.last~" ".ido.last" ".idlerc/" ".gradle/" ".gnupg/" ".gnome2/" ".gitignore_global~" ".gitignore_global" ".gitconfig" ".gervill/" ".gem/" ".freemind/" ".fontconfig/" ".exercism.json" ".esets/" ".emacs01~" ".emacs.d/" ".dvdcss/" ".DS_Store" ".dropbox-alt alias 2" ".dropbox-alt alias" ".dropbox-alt/" ".dropbox/" ".distlib/" ".dbshell" ".cytoscape/" ".cups/" ".continuum/" ".config/" ".conda/" ".CFUserTextEncoding" ".cask/" ".cache/" ".bzr.log" ".bfglF5777T2L1/" ".bfglF31T2L1/" ".bfglF2554T2L1/" ".bashrc" ".bash_profile~" ".bash_profile.pysave~" ".bash_profile.pysave" ".bash_profile-anaconda.bak" ".bash_profile" ".bash_history" ".atom/" ".anyconnect" ".android/" ".adobe/" "#.bash_profile#" "../" "./")
+
+ ("/Users/Mike/Desktop/" (21854 2481 0 0) "unetbootin.app/" "Turing Machines Videos/" "SI-Model-Independent.pdf" "ps.mp3" "ProblemImg.png" "ProblemImg(2).png" "ProblemImg(1).png" "Model-Independent_Design_MW.pdf" "Light_dispersion_conceptual_waves.gif" "Launcher.app/" "Languages & Countability Videos/" "Git Cheat Sheet.pdf" "Ex_Files_UaR_Bootstp3/" "Desktop/" "BulletVoice1.mp3" "bootstrap/" "AnimatedGifImg.png" "AnimatedGifImg(2).png" "AnimatedGifImg(2).fw.png" "afe.mp3" "8 Plants and Animals Helping Each Other FINAL.doc" "5 Environments MW.doc" "4.mp3" "3.mp3" "2.mp3" "1915 Refracting White Light.gif" "1.mp3" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/R/books/r_prog_for_data_sci/" (21832 11190 0 0) "04_interfaces_to_the_outside_world/" "03_using_text_and_binary_formats/" "02_getting_data_in_and_out/" "01_nuts_and_bolts/" "../" "./")
+
+ ("/Users/Mike/R/books/r_prog_for_data_sci/04_interfaces_to_the_outside_world/" (21832 12861 0 0) "notes.Rmd" "../" "./")
+
+ ("/Users/Mike/R/" (21832 2581 0 0) "y.R" "test.R" "mosquitoes/" "cheat_sheet.txt" "ChangeLog" "books/" "../" "./")
+
+ ("/Users/Mike/R/books/r_prog_for_data_sci/03_using_text_and_binary_formats/" (21832 2146 0 0) "notes.Rmd" ".#notes.Rmd" "#notes.Rmd#" "../" "./")
+
+ ("/Users/Mike/Documents/Projects/hfj/" (21831 61967 0 0) "SimpleGui1B.java" "SimpleGui1B.class" "SimpleGui1.java" "SimpleGui1.class" "../" "./")
+
+ ("/Users/Mike/.emacs.d/" (21831 61825 0 0) "var/" "url/" "themes/" "recentf" "places" "init.el~" "init.el" "Cask~" "Cask" "backups/" "auto-save-list/" ".smex-items" ".emacs.desktop.lock" ".emacs.desktop" ".cask/" ".#init.el" "#init.el#" "../" "./")
+
+ ("/Users/Mike/Documents/Projects/" (21831 56313 0 0) "wbcd/" "shuttle/" "rails_blog/" "prac_data/" "pic/" "osm_dc/" "ny_subway/" "mushroom/" "mites/" "lynda_java/" "hfj/" "datasci/" "credit/" "covtype/" "butterflies/" "bees/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/R/mosquitoes/scripts/" (21828 61139 0 0) "logistic_regression_three_factors.csv" "log_reg.R" "explore.Rmd" "../" "./")
+
+ ("/usr/local/" (21774 61317 0 0) "var/" "texlive/" "SUPPORTERS.md" "smlnj/" "share/" "README.md" "opt/" "mysql-5.6.4-m7-osx10.5-x86/" "man/" "LICENSE.txt" "Library/" "libexec/" "lib/" "include/" "hermes/" "git/" "Frameworks/" "etc/" "CONTRIBUTING.md" "CODEOFCONDUCT.md" "clamXav/" "Cellar/" "bin/" ".yardopts" ".gradle/" ".gitignore" ".git/" "../" "./")
+
+ ("/usr/local/bin/" (21825 30799 0 0) "zsh-5.0.7" "zsh" "xzmore" "xzless" "xzgrep" "xzfgrep" "xzegrep" "xzdiff" "xzdec" "xzcmp" "xzcat" "xz" "x86_64-apple-darwin14.3.0-gfortran-4.9" "x86_64-apple-darwin14.3.0-gcc-ranlib-4.9" "x86_64-apple-darwin14.3.0-gcc-nm-4.9" "x86_64-apple-darwin14.3.0-gcc-ar-4.9" "x86_64-apple-darwin14.3.0-gcc-4.9.2" "x86_64-apple-darwin14.3.0-gcc-4.9" "x86_64-apple-darwin14.3.0-g++-4.9" "x86_64-apple-darwin14.3.0-c++-4.9" "wrjpgcom" "wish8.6" "wish8.5" "wget" "wftopfa" "watchgnupg" "Wand-config" "virtualenvwrapper_lazy.sh" "virtualenvwrapper.sh" "virtualenv-clone" "virtualenv-3.4" "virtualenv-2.7" "virtualenv" "valgrind" "unxz" "unlzma" "unix-lpr.sh" "tiffsplit" "tiffset" "tiffmedian" "tiffinfo" "tiffdump" "tiffdither" "tiffcrop" "tiffcp" "tiffcmp" "tiff2rgba" "tiff2ps" "tiff2pdf" "tiff2bw" "thumbnail" "texdist" "teacup" "tclsh8.6" "tclsh8.5" "tclselect" "symcryptrun" "stream" "ssh-copy-id" "smtpd2.py" "smtpd2.7.py" "smtpd.py" "ruby-local-exec" "ruby-build" "Rscript" "rgb2ycbcr" "rdjpgcom" "rbenv-uninstall" "rbenv-install" "rbenv" "raw2tiff" "ras2tiff" "R" "pyvenv-3.4" "pyvenv" "pythonw2.7" "pythonw2" "pythonw" "python3.4m-config" "python3.4m" "python3.4-config" "python3.4" "python3-config" "python3" "python2.7-config" "python2.7" "python2-config" "python2" "python-config" "python" "pyflakes" "pydoc3.4" "pydoc3" "pydoc2.7" "pydoc2" "pydoc" "pth-config" "ps2ps2" "ps2ps" "ps2pdfwr" "ps2pdf14" "ps2pdf13" "ps2pdf12" "ps2pdf" "ps2epsi" "ps2ascii" "printafm" "ppm2tiff" "pphs" "pngfix" "png-fix-itxt" "pkg-config" "pip3.4" "pip3" "pip2.7" "pip2" "pip" "pinentry-curses" "pinentry" "pfbtopfa" "pf2afm" "pdf2ps" "pdf2dsc" "pcretest" "pcregrep" "pcre-config" "pbr" "pal2rgb" "paceit" "npm" "nosetests-2.7" "nosetests" "node" "no_op_client_for_valgrind" "mpicalc" "montage" "mogrify" "MagickWand-config" "MagickCore-config" "Magick-config" "Magick++-config" "lzmore" "lzmainfo" "lzmadec" "lzma" "lzless" "lzgrep" "lzfgrep" "lzegrep" "lzdiff" "lzcmp" "lzcat" "lprsetup.sh" "libusb-config" "libpng16-config" "libpng15-config" "libpng14-config" "libpng12-config" "libpng-config" "libgcrypt-config" "libassuan-config" "ksba-config" "kbxutil" "julia-debug" "julia" "jtestrb" "jrubyc" "jruby.sh" "jruby.bash" "jruby" "jri" "jrdoc" "jrake" "jpegtran" "jirb_swing" "jirb" "jgem" "jast" "import" "ifnames" "idle3.4" "idle3" "idle2.7" "idle2" "idle" "identify" "hmac256" "hg" "gtester-report" "gtester" "gsnd" "gslp" "gslj" "gsettings" "gsdj500" "gsdj" "gsbj" "gs-X11" "gs-noX11" "gs" "gresource" "grep-changelog" "gradle" "gpgv2" "gpgv" "gpgsplit" "gpgsm-gencert.sh" "gpgsm" "gpgparsemail" "gpgkey2ssh" "gpgconf" "gpg2" "gpg-zip" "gpg-error-config" "gpg-error" "gpg-connect-agent" "gpg-agent" "gpg" "gobject-query" "glibtoolize" "glibtool" "glib-mkenums" "glib-gettextize" "glib-genmarshal" "glib-compile-schemas" "glib-compile-resources" "github" "git-upload-pack" "git-upload-archive" "git-shell" "git-receive-pack" "git-cvsserver" "git-credential-osxkeychain" "git" "gio-querymodules" "gif2tiff" "gfortran-4.9" "gfortran" "gdbus-codegen" "gdbus" "gdbmtool" "gdbm_load" "gdbm_dump" "gcov-4.9" "gcc-ranlib-4.9" "gcc-nm-4.9" "gcc-ar-4.9" "gcc-4.9" "gapplication" "g++-4.9" "freetype-config" "font2c" "fftwl-wisdom" "fftwf-wisdom" "fftw-wisdom-to-conf" "fftw-wisdom" "fc-validate" "fc-scan" "fc-query" "fc-pattern" "fc-match" "fc-list" "fc-cat" "fc-cache" "fax2tiff" "fax2ps" "f2py" "exercism" "etags" "eps2eps" "emacs~" "emacsclient" "emacs-24.5" "emacs" "ebrowse" "easy_install-3.4" "easy_install-2.7" "easy_install" "dvipdf" "dumpsexp" "djpeg" "display" "dirmngr-client" "dirmngr" "cpp-4.9" "convert" "conjure" "composite" "compare" "cloog" "cjpeg" "cg_merge" "cg_diff" "cg_annotate" "cask" "callgrind_control" "callgrind_annotate" "cairo-trace" "cairo-sphinx" "c++-4.9" "brew" "bower" "bmp2tiff" "autoupdate" "autoscan" "autoreconf" "autom4te" "autoheader" "autoconf" "atom" "applygnupgdefaults" "apm" "animate" "addgnupghome" "2to3-3.4" "2to3-2.7" "2to3-2" "2to3" "#emacs#" "../" "./")
+
+ ("/Users/Mike/R/mosquitoes/" (21828 885 0 0) "weather.csv" "train.csv" "test.csv" "spray.csv" "scripts/" "sampleSubmission.csv" "noaa_weather_qclcd_documentation.pdf" "mapdata_copyright_openstreetmap_contributors.txt" "mapdata_copyright_openstreetmap_contributors.rds" "__MACOSX/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/R/books/r_prog_for_data_sci/02_getting_data_in_and_out/" (21827 61455 0 0) "notes.Rmd" "../" "./")
+
+ ("/Users/Mike/R/books/r_prog_for_data_sci/01_nuts_and_bolts/" (21827 60989 0 0) "notes[woven].md" "notes.txt" "notes.Rmd" "notes.md" "ChangeLog" "../" "./")
+
+ ("/Users/Mike/R/books/" (21826 57230 0 0) "r_prog_for_data_sci/" "../" "./")
+
+ ("/Users/Mike/.emacs.d/.cask/24.5.1/elpa/polymode-20150430.934/" (21826 62355 0 0) "polymode.elc" "polymode.el" "polymode-weave.elc" "polymode-weave.el" "polymode-tangle.elc" "polymode-tangle.el" "polymode-pkg.el" "polymode-methods.elc" "polymode-methods.el" "polymode-export.elc" "polymode-export.el" "polymode-configuration.elc" "polymode-configuration.el" "polymode-common.elc" "polymode-common.el" "polymode-classes.elc" "polymode-classes.el" "polymode-autoloads.el" "poly-R.elc" "poly-R.el" "poly-org.elc" "poly-org.el" "poly-noweb.elc" "poly-noweb.el" "poly-markdown.elc" "poly-markdown.el" "poly-base.elc" "poly-base.el" "../" "./")
+
+ ("/Users/Mike/.emacs.d/.cask/24.5.1/elpa/" (21826 62356 0 0) "yasnippet-20150415.244/" "xlicense-1.1/" "writeroom-mode-20150302.1431/" "visual-fill-column-20150311.1735/" "starter-kit-20130904.1547/" "smex-20141210.1422/" "shut-up-20150423.522/" "shm-20150418.317/" "scss-mode-20150107.1400/" "scala-mode2-20150113.2309/" "sbt-mode-20141110.1116/" "s-20140910.334/" "ruby-refactor-20140719.1645/" "rainbow-delimiters-20150320.17/" "pyvenv-20150218.2323/" "python-mode-20150327.438/" "python-environment-20150310.153/" "protobuf-mode-20091217.1755/" "powerline-20150427.1512/" "popup-20150315.612/" "polymode-readme.txt" "polymode-20150430.934/" "pkg-info-20140610.630/" "pcache-20150125.1653/" "pbcopy-20150224.2059/" "paredit-everywhere-20140906.210/" "paredit-20150217.713/" "pallet-20150303.1343/" "package-build-20150318.2207/" "nose-20140520.948/" "multiple-cursors-20150307.2322/" "multi-web-mode-20130823.2054/" "markdown-mode-20150121.1229/" "magit-20150424.1706/" "lua-mode-20150303.1303/" "logito-20120225.1255/" "let-alist-1.0.3.signed" "let-alist-1.0.3/" "keyfreq-20141124.805/" "js2-mode-20150423.1929/" "jedi-core-20150422.209/" "jedi-20150413.2208/" "idomenu-20141123.1320/" "ido-vertical-mode-20150418.944/" "ido-ubiquitous-20150423.1037/" "ido-select-window-20131220.1247/" "ido-completing-read+-20150423.1037/" "idle-highlight-mode-20120920.948/" "highlight-indentation-20150307.208/" "hamlet-mode-20131207.2324/" "google-this-20150226.2005/" "google-c-style-20140929.1118/" "go-snippets-20130821.844/" "go-mode-20150410.245/" "go-eldoc-20150403.233/" "go-autocomplete-20150404.2351/" "gnupg/" "github-browse-file-20150411.1223/" "git-rebase-mode-20150122.1114/" "git-commit-mode-20150330.1048/" "gist-20150308.435/" "gh-20150126.1125/" "flycheck-hdevtools-20150329.323/" "flycheck-google-cpplint-20140806.925/" "flycheck-20150412.242/" "flx-ido-20140821.2033/" "flx-20140921.739/" "find-file-in-project-20150421.436/" "f-20150217.328/" "expand-region-20150414.908/" "ess-20150423.923/" "epl-20150326.1212/" "epc-20140609.2234/" "ensime-20150417.2324/" "elpy-20150226.1148/" "dired-details-20130824.1158/" "dired-details+-20150104.2150/" "diminish-20091203.1012/" "deferred-20150309.2052/" "dash-20150311.2355/" "cython-mode-20140705.1229/" "ctable-20140304.1659/" "concurrent-20150309.2052/" "company-20150428.2002/" "color-theme-solarized-20150427.1931/" "color-theme-20080305.34/" "coffee-mode-20150318.1623/" "cmake-mode-20150120.620/" "clojure-snippets-20140831.912/" "cask-20150404.1309/" "better-defaults-20150404.223/" "auto-complete-20150408.1132/" "auctex-11.88.4.signed" "auctex-11.88.4/" "ascii-20130824.1200/" "archives/" "ack-and-a-half-1.2.0/" "ack-1.3.signed" "ack-1.3/" "ace-jump-mode-20140616.115/" "2048-game-readme.txt" "../" "./")
+
+ ("/Users/Mike/.emacs.d/.cask/24.5.1/bootstrap/" (21824 25482 0 0) "shut-up-20150423.522/" "s-20140910.334/" "package-build-20150318.2207/" "gnupg/" "git-20140128.241/" "f-20150217.328/" "epl-20150326.1212/" "dash-20150311.2355/" "commander-20140120.1052/" "archives/" "../" "./")
+
+ ("/Users/Mike/.emacs.d/.cask/24.5.1/" (21824 25482 0 0) "elpa/" "bootstrap/" "../" "./")
+
+ ("/Users/Mike/.emacs.d/.cask/24.3.1/bootstrap/" (21824 25698 0 0) "shut-up-20150423.522/" "s-20140910.334/" "package-build-20150318.2207/" "git-20140128.241/" "f-20150217.328/" "epl-20150326.1212/" "dash-20150311.2355/" "commander-20140120.1052/" "archives/" "../" "./")
+
+ ("/Users/Mike/.emacs.d/.cask/24.3.1/" (21824 25681 0 0) "bootstrap/" "../" "./")
+
+ ("/Users/Mike/.emacs.d/.cask/" (21824 25681 0 0) "24.5.1/" "24.3.1/" "../" "./")
+
+ ("/Users/Mike/emacs.d/" (21825 39514 0 0) "tutorial/" "lisp/" "init.el~" "init.el" "eshell/" "emacs~" "emacs" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".cask/" "#init.el#" "../" "./")
+
+ ("/usr/" (21820 12225 0 0) "X11R6/" "X11/" "texbin/" "standalone/" "share/" "sbin/" "local/" "libexec/" "lib/" "include/" "bin/" "../" "./")
+
+ ("/Users/Mike/.mplayer/" (18851 35290 0 0) "config" "../" "./")
+
+ ("/Users/Mike/Calibre Library/" (21824 1245 0 0) "Wheater, Carolyn C.; McMenamin, Catherine_/" "Victor Hugo/" "V. Anton Spraul/" "Unknown/" "Tres Iniciados/" "Tom M. Mitchell/" "Tim Avants/" "Sun Tzu/" "Stephen Jay Gould/" "Stefan Zweig/" "Shelley Powers, Jerry Peek, Tim O'Reilly, Mike Loukides, et. al_/" "Ruben Dario/" "Rosa Chacel/" "Pedro Calderon de la Barca/" "Pablo Neruda/" "Octavio Paz/" "Nietzsche/" "Miguel de Unamuno/" "Miguel de Cervantes Saavedra/" "Miguel de Cervantes/" "Michel de Nostradamus/" "metadata_db_prefs_backup.json" "metadata.db" "Marx/" "Mallanaga Vatsyayana/" "Mahoma/" "M. Joly/" "Lucio Anneo Seneca/" "Lope de Vega/" "L. Carroll/" "Kevin Leyton-Brown/" "Kathy Sierra, Bert Bates/" "Juan Rulfo/" "Jose Hernandez/" "Jorge Isaacs/" "John Schember/" "John Kane/" "Jerry Peek/" "Jared Diamond/" "James W. Loewen/" "J.R.R. Tolkien/" "J.M. Barrie/" "J.K. Rowling/" "Isabel Allende/" "Immanuel Kant/" "Homero/" "Herbert Marcuse/" "Harold McGee/" "Gustavo Adolfo Becquer/" "Gustave Flaubert/" "Goethe W. Johan/" "Giovanni Boccaccio/" "Gibran Khalil Gibran/" "George Eliot/" "Geoffrey Chaucer/" "Gabriel Garcia Marquez/" "Friedrich Nietzsche/" "Friedrich Nietzche/" "Fray Luis de Leon/" "Franz Kafka/" "Francisco de Quevedo/" "Francis Bacon/" "Fourth Edition [eBook]/" "Flavio Josefo/" "Ferran Adria/" "Fernando de Rojas/" "Felix M. Samaniego/" "Federico Schiller/" "Federico Garcia Lorca/" "F. Nietzsche/" "F. Lopez de Gomara/" "Emilio Zola/" "Don Francisco Quevedo/" "David Allen/" "Dante Alighieri/" "Che Guevara/" "Charles Perrault/" "Cesar Vega/" "Cesar Cantui/" "By Shelley Powers, Jerry Peek, Tim O'Reilly, Mike Loukides, et. al_/" "Antoine De Saint-Exupery/" "Antiguo Testamento/" "Anonimo/" "Alejandro Dumas/" "../" "./")
+
+ ("/Users/Mike/Documents/Projects/prac_data/0246OS_Code & Data/Chapter02/" (21822 65458 0 0) "data/" "code/" ".Rhistory" ".RData" "../" "./")
+
+ ("/Users/Mike/Documents/Projects/prac_data/0246OS_Code & Data/Chapter02/data/" (21822 58920 0 0) "vehicles.csv.zip" "varlabels.txt" "../" "./")
+
+ ("/Users/Mike/Documents/Projects/prac_data/0246OS_Code & Data/" (21528 9458 0 0) "Chapter11/" "Chapter10/" "Chapter09/" "Chapter08/" "Chapter07/" "Chapter06/" "Chapter05/" "Chapter04/" "Chapter03/" "Chapter02/" "../" "./")
+
+ ("/Users/Mike/Documents/Projects/prac_data/" (21822 49157 0 0) "0246OS_Code & Data/" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/views/patients/" (21798 64479 0 0) "show.html.erb" "index.html.erb" "_prescription.html.erb" "_patient.html.erb" "_observation.html.erb" "_condition.html.erb" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/views/handoffs/" (21798 65402 0 0) "show.html.erb" "index.html.erb" "_annotations.html.erb" "_annotation.html.erb" "_annotate_button.html.erb" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/controllers/" (21798 62144 0 0) "welcome_controller.rb" "shares_controller.rb" "patients_controller.rb" "handoffs_controller.rb" "concerns/" "application_controller.rb" "annotations_controller.rb" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/models/" (21798 64295 0 0) "user.rb" "share.rb" "patient.rb" "observation.rb" "medication.rb" "handoff.rb" "condition.rb" "concerns/" "comment.rb" "api.rb" "annotation.rb" ".keep" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/assets/" (21742 26671 0 0) "stylesheets/" "javascripts/" "images/" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/assets/javascripts/" (21798 62144 0 0) "welcome.js.coffee" "handoffs.js.coffee" "application.js" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/" (21798 62144 0 0) "vendor/" "tmp/" "README.md" "Rakefile" "public/" "log/" "lib/" "GT_FHIR_API_Reference.md" "Gemfile.lock" "Gemfile" "db/" "config.ru" "config/" "bin/" "app/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/" (21778 43366 0 0) "user_stories.md~" "user_stories.md" "Tutorial/" "Team Project/" "Syllabus.pdf" "Readings/" "Rails/" "Presentations/" "patient_data/" "handoff/" "FHIR/" "Assignments/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/views/layouts/" (21788 7536 0 0) "application.html.erb" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/views/" (21766 20670 0 0) "welcome/" "patients/" "layouts/" "handoffs/" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/Project2/" (21774 63958 0 0) "TODO.md" "TeamDesign/" "StallManager/" "IndividualDesigns/" "D2/" "D1/" ".idea/" ".gitignore" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/Project2/D2/" (21776 39765 0 0) "VisionDocument.md" "UseCaseModel.md" "traceability.md" "TestPlan.md" "SupplementaryRequirements.md" "ProjectPlan.md" "Manual.md" "images/" "DesignDocument.md" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/Project2/StallManager/app/" (21774 64959 0 0) "src/" "proguard-rules.pro" "build.gradle" "build/" "app.iml" ".gitignore" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/Rails/" (21776 40627 0 0) "notes.md~" "notes.md" "blog/" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/Project2/StallManager/" (21772 55689 0 0) "StallManager.iml" "StallManager/" "settings.gradle" "res/" "local.properties" "libs/" "gradlew.bat" "gradlew" "gradle.properties" "gradle/" "gen/" "build.gradle" "bin/" "assets/" "app/" ".idea/" ".gradle/" ".gitignore" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/SDP/Assignments/Assignment6/" (21767 21450 0 0) "tail.txt~" "tail-specs.pdf" "grep-example.txt" "find-example.txt~" "find-example.txt.tsl" "find-example.txt" "cp-example.txt" "catpart.txt~" "catpart.txt.tsl" "catpart.txt" "CategoryPartition/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/patient_data/3.358020000-01/" (21767 22191 0 0) "Observation~" "Observation" "MedicationPrescription~" "MedicationPrescription" "Condition~" "Condition" "3.358020000-01~" "3.358020000-01" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/" (21742 26671 0 0) "views/" "models/" "mailers/" "helpers/" "controllers/" "assets/" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/app/controllers/concerns/" (21742 26671 0 0) ".keep" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/handoff/bin/" (21742 26671 0 0) "spring" "setup" "rake" "rails" "bundle" "build-war" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/patient_data/" (21767 23757 0 0) "patient_list.xml" "patient_list.json" "Marla_ccd.xml" "Marla/" "json_parser.py" "3.409000151-01/" "3.358020000-01/" "3.000050471-01/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/patient_data/conditions/" (21760 52862 0 0) "Patient" "Condition25_pretty.json" "Condition25" "Condition24_pretty.json" "Condition24" "Condition23_pretty.json" "Condition23" "Condition22_pretty.json" "Condition22" "Condition21_pretty.json" "Condition21" "Condition20_pretty.json" "Condition20" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/SDP/Assignments/" (21761 59685 0 0) "Assignment6/" "Assignment5/" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/" (21750 10528 0 0) "TeamInfo.txt" "Project2/" "Project1/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/SDP/6300Spring15Team38/Project2/IndividualDesigns/" (21748 63471 0 0) "swalvekar3/" "rsgk3/" "mwytock3/" "bsrinivasan31/" "../" "./")
+
+ ("/usr/bin/" (21729 7373 0 0) "zprint" "znew" "zmore" "zless" "zipsplit" "zipnote" "zipinfo" "zipgrep" "zipdetails5.18" "zipdetails5.16" "zipdetails" "zipcloak" "zip" "zgrep" "zforce" "zfgrep" "zegrep" "zdiff" "zcmp" "zcat" "ypwhich" "ypmatch" "ypcat" "yes" "yacc" "xxd" "xsubpp5.18" "xsubpp5.16" "xsubpp" "xsltproc" "xslt-config" "xpath5.18" "xpath5.16" "xpath" "xmllint" "xmlcatalog" "xml2man" "xml2-config" "xjc" "xip" "xgettext5.18.pl" "xgettext5.16.pl" "xgettext.pl" "xed" "xcrun" "xcodebuild" "xcode-select" "xattr-2.7" "xattr-2.6" "xattr" "xargs" "xar" "wsimport" "wsgen" "write" "wish8.5" "wish8.4" "wish" "whois" "whoami" "who" "which" "whereis" "whatis" "what" "weblatency.d" "wdutil" "wc" "wall" "wait" "w" "vmmap" "vm_stat" "vis" "VirtualBox" "vimtutor" "vimdiff" "vim" "view" "vi" "vboxwebsrv" "VBoxVRDP" "VBoxManage" "VBoxHeadless" "VBoxBalloonCtrl" "VBoxAutostart" "uux" "uuto" "uustat" "uupick" "uuname" "uulog" "uuidgen" "uuencode" "uudecode" "uucp" "users" "usbkdp" "uptime" "update_rubygems" "update_dyld_shared_cache" "unzipsfx" "unzip" "unvis" "UnRezWack" "unpack200" "units" "uniq" "unifdefall" "unifdef" "unexpand" "uncompress" "uname" "unalias" "umask" "ulimit" "ul" "type" "twistd" "tty" "tsort" "tset" "true" "troff" "trial" "treereg5.18" "treereg5.16" "treereg" "traptoemail" "trace" "tr" "tput" "touch" "topsysproc" "topsyscall" "tops" "top" "toe" "tnameserv" "tmutil" "tmdiagnose" "tkpp5.18" "tkpp5.16" "tkpp" "tkmib" "tkcon" "timerfires" "timer_analyser.d" "time" "tiffutil" "tiff2icns" "tidy" "tic" "thermal" "tftp" "tfmtodit" "textutil" "texindex" "texi2pdf" "texi2dvi" "testrb" "telnet" "tee" "tclsh8.5" "tclsh8.4" "tclsh" "tccutil" "tbl" "taskinfo" "tar" "talk" "tail" "tabs" "tab2space" "syslog" "sysdiagnose" "syscallbysysc.d" "syscallbyproc.d" "syscallbypid.d" "symbolscache" "symbols" "swiftc" "swift" "sw_vers" "svnversion" "svnsync" "svnserve" "svnlook" "svndumpfilter" "svnadmin" "svn" "sum" "sudo" "su" "stty5.18.pl" "stty5.16.pl" "stty.pl" "strip" "strings" "stringdups" "stat" "ssh-keyscan" "ssh-keygen" "ssh-agent" "ssh-add" "ssh" "srm" "sqlite3" "SplitForks" "split" "splain5.18" "splain5.16" "splain" "spfquery5.18" "spfquery5.16" "spfquery" "spfd5.18" "spfd5.16" "spfd" "sort" "soelim" "sntp" "snmpwalk" "snmpvacm" "snmpusm" "snmptrap" "snmptranslate" "snmptest" "snmptable" "snmpstatus" "snmpset" "snmpnetstat" "snmpinform" "snmpgetnext" "snmpget" "snmpdf" "snmpdelta" "snmpconf" "snmpbulkwalk" "snmpbulkget" "snmp-bridge-mib" "snfsdefrag" "smtpd2.7.py" "smtpd2.6.py" "smtpd.py" "smbutil" "slogin" "size" "sips" "sigdist.d" "showmount" "shlock" "shasum5.18" "shasum5.16" "shasum" "shar" "sftp" "setuids.d" "setregion" "SetFile" "servertool" "serialver" "seq" "segedit" "seeksize.d" "sed" "security" "sdx" "sdp" "sdiff" "sdef" "script" "screen" "scp" "schemagen" "scandeps5.18.pl" "scandeps5.16.pl" "scandeps.pl" "sc_usage" "say" "sar" "sandbox-simplify" "sandbox-exec" "sampleproc" "sample" "s2p5.18" "s2p5.16" "s2p" "rwsnoop" "rwho" "rwbytype.d" "rwbypid.d" "rvim" "rview" "rvictl" "ruptime" "runocc.d" "ruby" "rsync" "rsh" "Rscript" "rs" "rpcgen" "rmiregistry" "rmid" "rmic" "rlogin" "ri" "RezWack" "RezDet" "Rez" "rev" "resolveLinks" "ResMerger" "reset" "renice" "refer" "redo_prebinding" "rebase" "readlink" "read" "rdoc" "ranlib" "rake" "rails" "R" "quota" "qtmodernizer" "qtdefaults" "qlmanage" "qc2movie" "pythonw2.7" "pythonw2.6" "pythonw" "python2.7-config" "python2.7" "python2.6-config" "python2.6" "python-config" "python" "pydoc2.7" "pydoc2.6" "pydoc" "pwpolicy" "pwhich5.18" "pwhich5.16" "pwhich" "pubsub" "ptargrep5.18" "ptargrep5.16" "ptargrep" "ptardiff5.18" "ptardiff5.16" "ptardiff" "ptar5.18" "ptar5.16" "ptar" "pstruct5.18" "pstruct5.16" "pstruct" "pstopdf" "psed5.18" "psed5.16" "psed" "prove5.18" "prove5.16" "prove" "profiles" "productsign" "productbuild" "procsystime" "procmail" "printf" "printenv" "pridist.d" "priclass.d" "pre-grohtml" "pr" "ppdpo" "ppdmerge" "ppdi" "ppdhtml" "ppdc" "pp5.18" "pp5.16" "pp" "powermetrics" "power_report.sh" "post-grohtml" "policytool" "podselect5.18" "podselect5.16" "podselect" "podchecker5.18" "podchecker5.16" "podchecker" "pod2usage5.18" "pod2usage5.16" "pod2usage" "pod2text5.18" "pod2text5.16" "pod2text" "pod2readme5.18" "pod2readme5.16" "pod2readme" "pod2man5.18" "pod2man5.16" "pod2man" "pod2latex5.18" "pod2latex5.16" "pod2latex" "pod2html5.18" "pod2html5.16" "pod2html" "pmset" "plutil" "pluginkit" "plockstat" "pl2pm5.18" "pl2pm5.16" "pl2pm" "pl" "pkill" "pkgbuild" "pidpersec.d" "piconv5.18" "piconv5.16" "piconv" "pico" "pic2graph" "pic" "phpize" "php-config" "php" "phar.phar" "phar" "pgrep" "pfbtops" "perlthanks5.18" "perlthanks5.16" "perlthanks" "perlivp5.18" "perlivp5.16" "perlivp" "perldoc5.18" "perldoc5.16" "perldoc" "perlbug5.18" "perlbug5.16" "perlbug" "perl5.18" "perl5.16" "perl" "perfdiagnose" "pdfroff" "pcsctest" "pcap-config" "pbpaste" "pbcopy" "pathopens.d" "pathchk" "patch" "paste" "passwd" "parldyn5.18" "parldyn5.16" "parldyn" "parl5.18" "parl5.16" "parl" "par5.18.pl" "par5.16.pl" "par.pl" "pagestuff" "pagesize" "package-stash-conflicts5.18" "package-stash-conflicts5.16" "package-stash-conflicts" "pack200" "otool" "ostraceutil" "osascript" "osalang" "osadecompile" "osacompile" "orbd" "openssl" "opensnoop" "opendiff" "open" "odutil" "od" "ntpq" "ntp-keygen" "nsupdate" "nslookup" "nroff" "notifyutil" "nohup" "nmedit" "nm" "nl" "nice" "nfsstat" "newproc.d" "newgrp" "newaliases" "nettop" "net-snmp-create-v3-user" "net-snmp-config" "net-snmp-cert" "net-server5.18" "net-server5.16" "net-server" "neqn" "ndisasm" "ncurses5.4-config" "ncdestroy" "ncal" "nc" "nbdst" "native2ascii" "nasm" "nanoc" "nano" "MvMac" "msgs" "more" "moose-outdated5.18" "moose-outdated5.16" "moose-outdated" "moo-outdated5.18" "moo-outdated" "mnthome" "mmroff" "mktemp" "mklocale" "mkfifo" "mkdep" "mkbom" "mig" "mib2c-update" "mib2c" "mesg" "MergePef" "memory_pressure" "mdutil" "mdls" "mdimport32" "mdimport" "mdfind" "mddiagnose" "mcxrefresh" "mcxquery" "manpath" "man" "malloc_history" "makeinfo" "make" "mailx" "mailstat" "mailq" "mail" "machine" "macerror5.18" "macerror5.16" "macerror" "macbinary" "m4" "lwp-request5.18" "lwp-request5.16" "lwp-request" "lwp-mirror5.18" "lwp-mirror5.16" "lwp-mirror" "lwp-dump5.18" "lwp-dump5.16" "lwp-dump" "lwp-download5.18" "lwp-download5.16" "lwp-download" "lsvfs" "lsmp" "lsm" "lsbom" "lsappinfo" "lpstat" "lprm" "lpr" "lpq" "lpoptions" "lp" "lorder" "lookbib" "look" "logname" "login" "logger" "lockstat" "lockfile" "locate" "localedef" "locale" "loads.d" "llvm-gcc" "llvm-g++" "lldb" "lkbib" "lipo" "libtool" "libnetcfg5.18" "libnetcfg5.16" "libnetcfg" "lex" "lessecho" "less" "leave" "leaks" "ldapwhoami" "ldapurl" "ldapsearch" "ldappasswd" "ldapmodrdn" "ldapmodify" "ldapexop" "ldapdelete" "ldapcompare" "ldapadd" "ld" "latency" "lastwords" "lastcomm" "last" "lam" "kswitch" "krb5-config" "kpasswd" "klist" "kinit" "killall" "kill.d" "kgetcred" "keytool" "kextutil" "kdestroy" "kcc" "jvisualvm" "jstatd" "jstat" "jstack" "json_pp5.18" "json_pp5.16" "json_pp" "jsadebugd" "jrunscript" "jps" "jot" "join" "jobs" "jmc" "jmap" "jinfo" "jhat" "jdb" "jconsole" "jcmd" "javaws" "javap" "javah" "javadoc" "javac" "java" "jarsigner" "jar" "irb" "iptab5.18" "iptab5.16" "iptab" "iprofiler" "ipptool" "ippfind" "ipmitool" "ipcs" "ipcrm" "ipcount5.18" "ipcount5.16" "ipcount" "ip2cc5.18" "ip2cc5.16" "ip2cc" "iotop" "iosnoop" "iopending" "iopattern" "iofileb.d" "iofile.d" "instruments" "instmodsh5.18" "instmodsh5.16" "instmodsh" "install_name_tool" "install-info" "install" "infotocap" "infokey" "infocmp" "info" "indxbib" "indent" "imptrace" "idlj" "idle2.7" "idle2.6" "idle" "id" "ictool" "iconv" "iconutil" "ibtool" "httpdstat.d" "htmltree5.18" "htmltree5.16" "htmltree" "hpftodit" "hotspot.d" "hostinfo" "host" "hiutil" "hexdump" "heap" "headerdoc2html" "head" "hdxml2manxml" "hdiutil" "hdid" "hash" "h2xs5.18" "h2xs5.16" "h2xs" "h2ph5.18" "h2ph5.16" "h2ph" "gzip" "gzexe" "gzcat" "gunzip" "groups" "grotty" "grops" "grolj4" "grolbp" "grog" "groffer" "groff" "grodvi" "grn" "grep" "grap2graph" "gperf" "gnuserv" "gnumake" "gnudoit" "gnuclient" "gnuattach" "gm4" "git-upload-pack" "git-upload-archive" "git-shell" "git-receive-pack" "git-cvsserver" "git" "getopts" "getopt" "GetFileInfo" "getconf" "genstrings" "gencat" "gen_bridge_metadata" "gem" "gdiffmk" "gcov" "gcc" "gatherheaderdoc" "g++" "fwkpfv" "fwkdp" "fuser" "funzip" "ftp" "fs_usage" "from" "format-sql5.18" "format-sql5.16" "format-sql" "formail" "footprint" "fontrestore" "fold" "fmt" "flex++" "flex" "fixproc" "finger" "findrule5.18" "findrule5.16" "findrule" "find2perl5.18" "find2perl5.16" "find2perl" "find" "filtercalltree" "filebyproc.d" "file" "fgrep" "fg" "fdesetup" "fddist" "fc" "fax" "false" "eyapp5.18" "eyapp5.16" "eyapp" "extcheck" "expect" "expand" "execsnoop" "ex" "etags" "escputil" "errinfo" "erb" "eqn2graph" "eqn" "env" "encode_keychange" "enc2xs5.18" "enc2xs5.16" "enc2xs" "emacsclient" "emacs-undumped" "emacs" "egrep" "efix" "efax" "easy_install-2.7" "easy_install-2.6" "easy_install" "dwarfdump" "du" "dtruss" "dsymutil" "dsmemberutil" "dsimport" "dsexport" "dserr" "dscl" "dscacheutil" "drutil" "dns-sd" "ditto" "dispqlen.d" "diskhits" "dirname" "dig" "diffstat" "diff3" "diff" "desdp" "DeRez" "defaults" "debinhex5.18.pl" "debinhex.pl" "dc" "dbiproxy5.18" "dbiproxy5.16" "dbiproxy" "dbiprof5.18" "dbiprof5.16" "dbiprof" "dbilogstrip5.18" "dbilogstrip5.16" "dbilogstrip" "dbicadmin5.18" "dbicadmin5.16" "dbicadmin" "db_verify" "db_upgrade" "db_stat" "db_recover" "db_printlog" "db_load" "db_hotbackup" "db_dump" "db_deadlock" "db_codegen" "db_checkpoint" "db_archive" "darwinup" "dapptrace" "dappprof" "cvmkfile" "cvmkdir" "cvcp" "cvaffinity" "cut" "curl-config" "curl" "cupstestppd" "cupstestdsc" "cups-config" "cups-calibrate" "cu" "ctf_insert" "ctags" "csreq" "csplit" "csgather" "csdiagnose" "crontab" "crlrefresh" "creatbyproc.d" "crc325.18" "crc325.16" "crc32" "cpuwalk.d" "cpu_profiler.d" "cpp" "CpMac" "cpio" "cpanp5.18" "cpanp5.16" "cpanp-run-perl5.18" "cpanp-run-perl5.16" "cpanp-run-perl" "cpanp" "cpan5.18" "cpan5.16" "cpan2dist5.18" "cpan2dist5.16" "cpan2dist" "cpan" "corelist5.18" "corelist5.16" "corelist" "config_data5.18" "config_data5.16" "config_data" "compress" "command" "comm" "column" "colrm" "colldef" "colcrt" "col" "codesign_allocate" "codesign" "cmpdylib" "cmp" "clear" "clang++" "clang" "cksum" "chsh" "chpass" "chgrp" "chfn" "chflags" "checknr" "certtool" "cd" "cc" "captoinfo" "cap_mkdb" "cancel" "calendar" "cal" "caffeinate" "c_rehash" "c99" "c89" "c2ph5.18" "c2ph5.16" "c2ph" "c++filt" "c++" "bzmore" "bzless" "bzip2recover" "bzip2" "bzgrep" "bzfgrep" "bzegrep" "bzdiff" "bzcmp" "bzcat" "bunzip2" "bundler" "bundle" "BuildStrings" "btmmdiagnose" "bspatch" "bsdtar" "brctl" "bitesize.d" "bison" "binhex5.18.pl" "binhex.pl" "binhex" "biff" "bg" "bc" "batch" "bashbug" "basename" "base64" "banner" "awk" "avmetareadwrite" "avconvert" "avbdiagnose" "auvaltool" "auval" "automator" "atsutil" "atrm" "atq" "atos" "at" "asctl" "asa" "as" "arch" "ar" "apu-1-config" "apt" "apropos" "apr-1-config" "apply" "appletviewer" "applesingle" "allmemory" "alias" "agvtool" "agentxtrap" "afscexpand" "afplay" "afmtodit" "afinfo" "afida" "afhash" "afconvert" "addftinfo" "a2p5.18" "a2p5.16" "a2p" "2to32.6" "2to3-2.7" "2to3-" "2to3" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/HI/Assignments/" (21694 52931 0 0) "patient" "HIT-FHIR-Activity1-v6.pdf" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/SDP/" (21742 19568 0 0) "Why-Most-Unit-Testing-is-Waste.pdf" "Readings/" "Projects/" "OMSCS Transcripts.docx" "courses_gt-cs6300_VM_VM-CS6300-OMS-V3-OVF20.ova" "Assignments/" "6300Spring15Team38/" "6300Spring15mwytock3/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/" (21722 40904 0 0) "workspace/" "WebEx/" "tcpl/" "ROMs/" "Projects/" "OMSCS/" "Old Emails/" "Notebooks/" "MOOCs/" "Microsoft User Data/" "Mendeley Desktop/" "Job Info/" "git-game/" "Georgetown Documents/" "dip/" "CS Books/" "blog/" "Azureus Downloads/" "AdobeStockPhotos/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/MOOCs/" (21712 21122 0 0) "Udacity/" "Sustainability/" "regex/" "R Programming/" "Programming Languages/" "PMA/" "matrix/" "Mathematical Thinking/" "LTP- The Fundamentals_files/" "lrthw/" "lpthw/" "ljthw/" "lcthw/" "Health Informatics.docx" "Cryptography/" "Computing for Data Analysis/" "Case-based Introduction to Biostatistics/" "Calculus I/" "Biostatistics bootcamp/" "Animal Behavior/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/MOOCs/lrthw/" (21728 64265 0 0) "test.txt" "new_file.txt" "myfile.txt" "ex9.rb~" "ex9.rb" "ex8.rb~" "ex8.rb" "ex7.rb~" "ex7.rb" "ex6.rb~" "ex6.rb" "ex5.rb" "ex4.rb" "ex3.rb~" "ex3.rb" "ex20.rb" "ex2.rb" "ex19.rb" "ex18.rb" "ex17.rb" "ex16.rb~" "ex16.rb" "ex15_sample.txt" "ex15.rb~" "ex15.rb" "ex14.rb~" "ex14.rb" "ex13.rb~" "ex13.rb" "ex12.rb~" "ex12.rb" "ex11.rb~" "ex11.rb" "ex10.rb~" "ex10.rb" "ex1.rb" "#ex21.rb#" "#ex13.rb#" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/Projects/Randomized Optimization/" (21589 13053 0 0) "weight_optimization.Rmd" "scripts/" "README.txt" "Randomized Optimization Project.pdf" "Randomized Optimization Project.docx" "papers/" "mwytock3.zip" "mwytock3/" "figs/" "em.txt" "data/" "algorithm_comparison.Rmd" "ABAGAIL/" ".Rhistory" ".RData" ".gitignore~" ".gitignore" ".git/" ".DS_Store" "#em.txt#" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/Projects/Unsupervised Learning/" (21600 17724 0 0) "wilt_training.arff" "wilt_testing.arff" "Unsupervised Learning Project.docx" "transformed/" "README.txt" "rca.Rmd" "Project Description.pdf" "pca.Rmd" "fires_training_num.arff" "fires_training.arff" "fires_testing_num.arff" "fires_testing.arff" "figures/" "dimred_kmeans.Rmd" "dimred_em.Rmd" "data/" "bic.Rmd" "background.Rmd" "ann.Rmd" ".Rhistory" ".RData" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/" (21684 42613 0 0) "SDP/" "ML/" "HI/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/MOOCs/Udacity/Javascript/frontend-nanodegree-resume/" (21680 36553 0 0) "README.md" "js/" "index.html" "images/" "css/" ".git/" ".#index.html" "../" "./")
+
+ ("/Users/Mike/Documents/MOOCs/Udacity/" (21676 20117 0 0) "R/" "Python/" "Javascript/" "Java/" "Git/" "DWMDB/" "Algorithms/" "../" "./")
+
+ ("/Users/Mike/Documents/MOOCs/Udacity/Javascript/" (21676 20138 0 0) "frontend-nanodegree-resume/" "../" "./")
+
+ ("/Users/Mike/Documents/MOOCs/Udacity/Git/" (21648 61310 0 0) "asteroids/" "../" "./")
+
+ ("/Users/Mike/Documents/MOOCs/Udacity/Git/asteroids/" (21659 39127 0 0) "vector_battle_regular.typeface.js" "README.md" "LICENSE" "jquery-1.4.1.min.js" "ipad.js" "index.html" "game.js" "51467__smcameron__missile_explosion.wav" "39459__THE_bizniss__laser.wav" ".git/" "../" "./")
+
+ ("/Users/Mike/git/burlap/" (21616 45343 0 0) "testing/" "src/" "README.md" "LICENSE" "lib/" "build.xml" ".project" ".git/" "../" "./")
+
+ ("/Users/Mike/git/" (21616 43559 0 0) "zlib.c" "xdiff-interface.h" "xdiff-interface.c" "xdiff/" "wt-status.h" "wt-status.c" "ws.c" "write_or_die.c" "wrapper.c" "wrap-for-bin.sh" "wildmatch.h" "wildmatch.c" "walker.h" "walker.c" "versioncmp.c" "version.h" "version.c" "vcs-svn/" "varint.h" "varint.c" "utf8.h" "utf8.c" "userdiff.h" "userdiff.c" "usage.c" "urlmatch.h" "urlmatch.c" "url.h" "url.c" "upload-pack.c" "unpack-trees.h" "unpack-trees.c" "unix-socket.h" "unix-socket.c" "unimplemented.sh" "tree.h" "tree.c" "tree-walk.h" "tree-walk.c" "tree-diff.c" "transport.h" "transport.c" "transport-helper.c" "trace.c" "thread-utils.h" "thread-utils.c" "test-wildmatch.c" "test-urlmatch-normalization.c" "test-svn-fe.c" "test-subprocess.c" "test-string-list.c" "test-sigchain.c" "test-sha1.sh" "test-sha1.c" "test-scrap-cache-tree.c" "test-run-command.c" "test-revision-walking.c" "test-regex.c" "test-read-cache.c" "test-prio-queue.c" "test-path-utils.c" "test-parse-options.c" "test-mktemp.c" "test-mergesort.c" "test-match-trees.c" "test-line-buffer.c" "test-index-version.c" "test-hashmap.c" "test-genrandom.c" "test-dump-cache-tree.c" "test-delta.c" "test-date.c" "test-ctype.c" "test-chmtime.c" "templates/" "tar.h" "tag.h" "tag.c" "t/" "symlinks.c" "submodule.h" "submodule.c" "string-list.h" "string-list.c" "streaming.h" "streaming.c" "strbuf.h" "strbuf.c" "sigchain.h" "sigchain.c" "sideband.h" "sideband.c" "show-index.c" "shortlog.h" "shell.c" "shallow.c" "sha1_name.c" "sha1_file.c" "sha1-lookup.h" "sha1-lookup.c" "sha1-array.h" "sha1-array.c" "sh-i18n--envsubst.c" "setup.c" "server-info.c" "sequencer.h" "sequencer.c" "send-pack.h" "send-pack.c" "run-command.h" "run-command.c" "revision.h" "revision.c" "resolve-undo.h" "resolve-undo.c" "rerere.h" "rerere.c" "replace_object.c" "remote.h" "remote.c" "remote-testsvn.c" "remote-curl.c" "RelNotes" "refs.h" "refs.c" "reflog-walk.h" "reflog-walk.c" "README" "read-cache.c" "reachable.h" "reachable.c" "quote.h" "quote.c" "prompt.h" "prompt.c" "progress.h" "progress.c" "prio-queue.h" "prio-queue.c" "pretty.c" "preload-index.c" "ppc/" "po/" "pkt-line.h" "pkt-line.c" "perl/" "pathspec.h" "pathspec.c" "path.c" "patch-ids.h" "patch-ids.c" "patch-delta.c" "parse-options.h" "parse-options.c" "parse-options-cb.c" "pager.c" "pack.h" "pack-write.c" "pack-revindex.h" "pack-revindex.c" "pack-objects.h" "pack-objects.c" "pack-check.c" "pack-bitmap.h" "pack-bitmap.c" "pack-bitmap-write.c" "object.h" "object.c" "notes.h" "notes.c" "notes-utils.h" "notes-utils.c" "notes-merge.h" "notes-merge.c" "notes-cache.h" "notes-cache.c" "name-hash.c" "mergetools/" "mergesort.h" "mergesort.c" "merge.c" "merge-recursive.h" "merge-recursive.c" "merge-blobs.h" "merge-blobs.c" "match-trees.c" "Makefile" "mailmap.h" "mailmap.c" "log-tree.h" "log-tree.c" "lockfile.c" "ll-merge.h" "ll-merge.c" "list-objects.h" "list-objects.c" "line-range.h" "line-range.c" "line-log.h" "line-log.c" "LGPL-2.1" "levenshtein.h" "levenshtein.c" "kwset.h" "kwset.c" "khash.h" "INSTALL" "imap-send.c" "ident.c" "http.h" "http.c" "http-walker.c" "http-push.c" "http-fetch.c" "http-backend.c" "hex.c" "help.h" "help.c" "hashmap.h" "hashmap.c" "grep.h" "grep.c" "graph.h" "graph.c" "gpg-interface.h" "gpg-interface.c" "gitweb/" "gitk-git/" "git.spec.in" "git.rc" "git.c" "git-web--browse.sh" "GIT-VERSION-GEN" "git-svn.perl" "git-submodule.sh" "git-stash.sh" "git-sh-setup.sh" "git-sh-i18n.sh" "git-send-email.perl" "git-request-pull.sh" "git-remote-testgit.sh" "git-relink.perl" "git-rebase.sh" "git-rebase--merge.sh" "git-rebase--interactive.sh" "git-rebase--am.sh" "git-quiltimport.sh" "git-pull.sh" "git-parse-remote.sh" "git-p4.py" "git-mergetool.sh" "git-mergetool--lib.sh" "git-merge-resolve.sh" "git-merge-one-file.sh" "git-merge-octopus.sh" "git-instaweb.sh" "git-gui/" "git-filter-branch.sh" "git-difftool.perl" "git-difftool--helper.sh" "git-cvsserver.perl" "git-cvsimport.perl" "git-cvsexportcommit.perl" "git-compat-util.h" "git-bisect.sh" "git-archimport.perl" "git-am.sh" "git-add--interactive.perl" "gettext.h" "gettext.c" "generate-cmdlist.sh" "fsck.h" "fsck.c" "fmt-merge-msg.h" "fetch-pack.h" "fetch-pack.c" "fast-import.c" "exec_cmd.h" "exec_cmd.c" "ewah/" "environment.c" "entry.c" "editor.c" "Documentation/" "dir.h" "dir.c" "diffcore.h" "diffcore-rename.c" "diffcore-pickaxe.c" "diffcore-order.c" "diffcore-delta.c" "diffcore-break.c" "diff.h" "diff.c" "diff-no-index.c" "diff-lib.c" "diff-delta.c" "delta.h" "decorate.h" "decorate.c" "date.c" "daemon.c" "ctype.c" "csum-file.h" "csum-file.c" "credential.h" "credential.c" "credential-store.c" "credential-cache.c" "credential-cache--daemon.c" "COPYING" "copy.c" "convert.h" "convert.c" "contrib/" "connected.h" "connected.c" "connect.h" "connect.c" "configure.ac" "config.mak.uname" "config.mak.in" "config.c" "compat/" "commit.h" "commit.c" "commit-slab.h" "command-list.txt" "combine-diff.c" "column.h" "column.c" "color.h" "color.c" "check_bindir" "check-racy.c" "check-builtins.sh" "cache.h" "cache-tree.h" "cache-tree.c" "burlap/" "bundle.h" "bundle.c" "bulk-checkin.h" "bulk-checkin.c" "builtin.h" "builtin/" "branch.h" "branch.c" "block-sha1/" "blob.h" "blob.c" "bisect.h" "bisect.c" "base85.c" "attr.h" "attr.c" "argv-array.h" "argv-array.c" "archive.h" "archive.c" "archive-zip.c" "archive-tar.c" "alloc.c" "alias.c" "advice.h" "advice.c" "aclocal.m4" "abspath.c" ".mailmap" ".gitignore" ".gitattributes" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/Projects/Randomized Optimization/data/" (21572 33034 0 0) "wilt_training.txt" "wilt_training.csv" "weight_optimization_sa_rhc.csv" "weight_optimization_sa.csv" "weight_optimization_layers.csv" "weight_optimization_ga.csv" "weight_optimization.csv" "tsp.csv" "knapsack.csv" "four_peaks.csv" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/Projects/" (21573 34937 0 0) "Unsupervised Learning/" "Supervised Learning/" "Randomized Optimization/" ".DS_Store" "../" "./")
+
+ ("/Users/" (21568 22288 0 0) "Shared/" "Mike/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/ABAGAIL/" (21572 10049 0 0) "src/" "README.md" "manifest.mf" "jython/" "docs/" "build.xml" "bin/" "ABAGAIL.jar" "abagail.html" ".project" ".gitignore" ".git/" ".classpath" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/ABAGAIL/src/opt/test/" (21572 32975 0 0) "XORTestNoBackpropSimAnneal.java" "XORTestNoBackpropGeneticAlgo.java" "XORTestNoBackprop.java" "XORTest.java" "WiltTest.java" "WiltSA.java" "WiltLayers.java" "WiltGA.java" "wilt_training.txt" "TravelingSalesmanTest.java" "KnapsackTest90.java" "KnapsackTest80.java" "KnapsackTest70.java" "KnapsackTest60.java" "KnapsackTest50.java" "KnapsackTest40.java" "KnapsackTest30.java" "KnapsackTest20.java" "KnapsackTest.java" "FourPeaksTest90.java" "FourPeaksTest80.java" "FourPeaksTest70.java" "FourPeaksTest60.java" "FourPeaksTest50.java" "FourPeaksTest40.java" "FourPeaksTest30.java" "FourPeaksTest20.java" "FourPeaksTest10.java" "FourPeaksTest.java" "FlipFlopTest.java" "FiresTest.java" "CountOnesTest.java" "ContinuousPeaksTest.java" "AbaloneTest.java" "abalone.txt" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/ABAGAIL/src/opt/ga/" (21568 16854 0 0) "UniformCrossOver.java" "SwapMutation.java" "StandardGeneticAlgorithm.java" "SingleCrossOver.java" "MutationFunction.java" "GeneticAlgorithmProblem.java" "GenericGeneticAlgorithmProblem.java" "DiscreteChangeOneMutation.java" "CrossoverFunction.java" "ContinuousAddOneMutation.java" "#StandardGeneticAlgorithm.java#" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/" (21563 12186 0 0) "Udacity Reviews/" "Supplements/" "Supervised Learning Notes/" "Readings/" "Projects/" "Problem Sets/" "nips2013.docx" "Moore's Slides/" "Midterm Study Guide.docx" "Implementation Resources/" "dataset_comparison.txt" "Advice.pdf" "ABAGAIL/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/Projects/Supervised Learning/wilt/" (21557 18254 0 0) "wilt_training.csv" "wilt_training.arff" "wilt_testing.csv" "wilt_testing.arff" "wilt_svm.csv" "wilt_ann.csv" "treeError.Rmd" "training.csv" "testing.csv" "kNN k Increase.Rmd" "experimenter.arff" "DT Overfitting.Rmd" "classification_results.docx" "classification_output.txt" "BOOST Overfitting.Rmd" "Background Figs.Rmd" "ann.Rmd" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/ABAGAIL/jython/" (21557 44412 0 0) "run.sh" "knapsack.py" "fourpeaks.py" "countones.py" "continuouspeaks.py" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/ABAGAIL/src/opt/" (21558 64185 0 0) "test/" "SwapNeighbor.java" "SimulatedAnnealing.java" "RandomizedHillClimbing.java" "prob/" "OptimizationProblem.java" "OptimizationAlgorithm.java" "NeighborFunction.java" "HillClimbingProblem.java" "GenericOptimizationProblem.java" "GenericHillClimbingProblem.java" "ga/" "example/" "EvaluationFunction.java" "DiscreteChangeOneNeighbor.java" "ContinuousAddOneNeighbor.java" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/ABAGAIL/src/" (21557 44412 0 0) "util/" "shared/" "rl/" "opt/" "func/" "dist/" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/Projects/Supervised Learning/" (21542 13230 0 0) "wilt_sgd.jpeg" "wilt_mlp.jpeg" "wilt_dt_error.jpeg" "wilt_ann.jpeg" "wilt/" "training_size_vs_error.jpeg" "Supervised Learning Project.docx" "summary.Rmd" "summary.jpeg" "Project Outline.docx" "output_class_hist.jpeg" "ML Results Summary.docx" "k_error.jpeg" "hist_comparison.jpeg" "fires_weightsMethod.jpeg" "fires_knn.jpeg" "fires_distMetric.jpeg" "fires_ann.jpeg" "fires/" "dt_regression_error.jpeg" "dt_classification_error.jpeg" "boosting.jpeg" "bikes/" "bagging.jpeg" "all_ann.jpeg" "alg_comparison.csv" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/OMSCS/ML/Projects/Supervised Learning/bikes/" (21517 48262 0 0) "Readme.txt" "hour.csv" "hour.arff~" "hour.arff" "decision_tree.Rmd" "day.csv" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/Projects/covtype/" (21510 36709 0 0) "old_covtype.info" "covtype_sans.csv" "covtype.info" "covtype.data" "covtype.csv" "../" "./")
+
+ ("/Users/Mike/ipython/" (21466 35901 0 0) "rpy_tutorial.ipynb" "rpy_tutorial-checkpoint.ipynb" "README" "profile_default/" "pandas_tut.ipynb" "kaggle-titanic.ipynb" "kaggle-titanic-checkpoint.ipynb" "freezing-bear/" "dwmdb06-openstreetmap-checkpoint.ipynb" "dwmdb05-analyzing-data-checkpoint.ipynb" "dwmdb04-mongodb-checkpoint.ipynb" "dwmdb/" "bees-checkpoint.ipynb" "bees/" "1-Intro-To-Kaggle-checkpoint.ipynb" ".ipython/" ".ipynb_checkpoints/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/.ipython/profile_default/" (21466 40906 0 0) "static/" "startup/" "security/" "pid/" "log/" "ipython_qtconsole_config.py" "ipython_notebook_config.py~" "ipython_notebook_config.py" "ipython_nbconvert_config.py" "ipython_config.py" "history.sqlite" "db/" "../" "./")
+
+ ("/Users/Mike/Desktop/ML Project Data/Covertype/" (21510 36709 0 0) ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/Projects/forest_fires/" (21510 36720 0 0) "forestfires.names" "forestfires.csv" "forestfires.arff" "../" "./")
+
+ ("/Users/Mike/Documents/Projects/bikes/" (21508 61623 0 0) "Readme.txt" "hour.csv" "hour.arff~" "hour.arff" "day.csv" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Documents/Projects/osm_dc/" (21466 32047 0 0) "users.pyc" "users.py" "tags.py" "sampled_dc.osm" "sampled_dc.json" "queries.py" "osm_sampler.py" "mapparser.pyc" "mapparser.py" "dc.osm" "dc.json" "data.pyc" "data.py" "audit_output.txt" "audit.pyc" "audit.py" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/Desktop/DWMDB/" (21466 30650 0 0) "users.py" "tags.py" "queries.py" "osm_sampler.py" "mapparser.py" "example.osm" "data.py" "audit.py" ".DS_Store" "../" "./")
+
+ ("/Users/Mike/bin/" (21455 14442 0 0) "pycheckers/" "../" "./")
+
+ ("/Users/Mike/.emacs.d/settings/" (21455 63441 0 0) "scss-settings.el" "python-settings.el" "mumamo-settings.el" "matlab-settings.el" "markdown-settings.el" "latex-settings.el" "helm-settings.el" "general-settings.el" "el-get-settings.el" "custom.el" "custom-functions.el" "camelcase-settings.el" "auto-complete-settings.el" "../" "./")
+
+ ("/Users/Mike/.emacs.d/elpa/" (21455 11189 0 0) "python-mode-6.1.3/" "pkg-info-20140610.630/" "ipython-2927/" "flycheck-readme.txt~" "flycheck-readme.txt" "flycheck-20140719.810/" "epl-20140620.218/" "dash-20140717.547/" "archives/" "../" "./")
+
+ ("/Users/Mike/.terminfo/" (21454 35184 0 0) "eterm-color.ti" "e/" "65/" "../" "./")
+
+ ("/Users/Mike/Documents/pic/" (21453 11193 0 0) "prog8.5.c~" "prog8.5.c" "prog8.5" "prog8.4.c~" "prog8.4.c" "prog8.4" "prog8.3.c~" "prog8.3.c" "prog8.3" "prog8.2.c~" "prog8.2.c" "prog8.2" "prog8.1.c~" "prog8.1.c" "prog8.1" "prog7.8.c~" "prog7.8.c" "prog7.7.c~" "prog7.7.c" "prog7.7" "prog7.6.c~" "prog7.6.c" "prog7.6" "prog7.5.c~" "prog7.5.c" "prog7.5" "prog7.4.c~" "prog7.4.c" "prog7.4" "prog7.3.c~" "prog7.3.c" "prog7.3" "prog7.2.c~" "prog7.2.c" "prog7.2" "prog7.1.c~" "prog7.1.c" "prog7.1" "prog6.9.c~" "prog6.9.c" "prog6.9" "prog6.8.c~" "prog6.8.c" "prog6.8" "prog6.7.c~" "prog6.7.c" "prog6.7" "prog6.6.c~" "prog6.6.c" "prog6.6" "prog6.5.c~" "prog6.5.c" "prog6.5" "prog6.4.c~" "prog6.4.c" "prog6.3.c~" "prog6.3.c" "prog6.3" "prog6.2.c~" "prog6.2.c" "prog6.2" "prog6.10.c~" "prog6.10.c" "prog6.10" "prog6.1.c~" "prog6.1.c" "prog6.1" "prog5.9.c~" "prog5.9.c" "prog5.9" "prog5.8.c~" "prog5.8.c" "prog5.8" "prog5.7.c~" "prog5.7.c" "prog5.7" "prog5.6.c~" "prog5.6.c" "prog5.6" "prog5.5.c~" "prog5.5.c" "prog5.5" "prog5.4.c~" "prog5.4.c" "prog5.4" "prog5.3.c~" "prog5.3.c" "prog5.3" "prog5.2.c~" "prog5.2.c" "prog5.2" "prog5.1.c~" "prog5.1.c" "prog5.1" "prog4.5.c~" "prog4.5.c" "prog4.5" "prog4.4.c~" "prog4.4.c" "prog4.4" "prog4.3.c~" "prog4.3.c" "prog4.3" "prog4.2.c~" "prog4.2.c" "prog4.2" "prog4.1.c~" "prog4.1.c" "prog4.1" "prog3.c" "prog3.6.c~" "prog3.6.c" "prog3.6" "prog3.5.c~" "prog3.5.c" "prog3.5" "prog3.4.c~" "prog3.4.c" "prog3.4" "prog3" "prog2.c~" "prog2.c" "prog2" "prog1.c~" "prog1.c" "prog1" "ex8.9.c~" "ex8.9.c" "ex8.9" "ex8.8.c~" "ex8.8.c" "ex8.8" "ex8.7.c~" "ex8.7.c" "ex8.7" "ex8.6.c~" "ex8.6.c" "ex8.6" "ex8.15.c~" "ex8.15.c" "ex8.15" "ex8.14.c~" "ex8.14.c" "ex8.14" "ex8.13a.c~" "ex8.13a.c" "ex8.13a" "ex8.13.c~" "ex8.13.c" "ex8.13" "ex8.12.c~" "ex8.12.c" "ex8.12" "ex8.11.c~" "ex8.11.c" "ex8.11" "ex8.10.c~" "ex8.10.c" "ex8.10" "ex7.7.c~" "ex7.7.c" "ex7.7" "ex7.6.c~" "ex7.6.c" "ex7.6" "ex7.5.c~" "ex7.5.c" "ex7.5" "ex7.4.c~" "ex7.4.c" "ex7.4" "ex7.3.c~" "ex7.3.c" "ex7.3" "ex7.2.c~" "ex7.2.c" "ex7.2" "ex6.7.c~" "ex6.7.c" "ex6.6.c~" "ex6.6.c" "ex6.6" "ex6.5.c~" "ex6.5.c" "ex6.5" "ex6.4.c~" "ex6.4.c" "ex6.4" "ex6.3.c~" "ex6.3.c" "ex6.3" "ex6.2.c~" "ex6.2.c" "ex6.2" "ex5.9.c~" "ex5.9.c" "ex5.9" "ex5.8.c~" "ex5.8.c" "ex5.8" "ex5.7.c~" "ex5.7.c" "ex5.7" "ex5.5.c~" "ex5.5.c" "ex5.5" "ex5.4.c~" "ex5.4.c" "ex5.4" "ex5.3.c~" "ex5.3.c" "ex5.3" "ex5.2.c~" "ex5.2.c" "ex5.2" "ex5.11.c~" "ex5.11.c" "ex5.11" "ex4.8.c~" "ex4.8.c" "ex4.8" "ex4.7.c~" "ex4.7.c" "ex4.7" "ex4.6.c~" "ex4.6.c" "ex4.6" "ex4.4.c~" "ex4.4.c" "ex4.4" "ex3.5.c~" "ex3.5.c" "ex3.4.c~" "ex3.4.c" "ex3.4" "ex3.2.c~" "ex3.2.c" "ex3.2" "a.out" "../" "./")
+
+ ("/Users/Mike/.emacs.d/themes/" (21449 13334 0 0) "zenburn-theme.el" "solarized-light-theme.el" "solarized-dark-theme.el" "../" "./")
+
+ ("/Users/Mike/.emacs.d/elpa/auto-complete-20140618.2217/" (21449 12954 0 0) "dict/" "auto-complete.elc" "auto-complete.el" "auto-complete-pkg.elc" "auto-complete-pkg.el" "auto-complete-config.elc" "auto-complete-config.el" "auto-complete-autoloads.el~" "auto-complete-autoloads.el" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

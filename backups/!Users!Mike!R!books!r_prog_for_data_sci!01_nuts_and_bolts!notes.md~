@@ -1,0 +1,11 @@
+# 1 R Nuts and Bolts
+## 1.1 R Objects
+R has five "atomic" classes of objects:
+  * character
+  * numeric (real numbers)
+  * integer
+  * complex
+  * logical (True/False)
+
+## 1.2
+

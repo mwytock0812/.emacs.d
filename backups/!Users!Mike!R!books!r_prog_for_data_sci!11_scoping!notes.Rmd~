@@ -1,0 +1,9 @@
+# Chapter 11: Scoping Rules of R
+##11.1 A Diversion on Binding Values to Symbols
+When R tries to assign a value to a symbol, it searches through a
+series of environments. In the command line, the order is roughly:
+* Search the global environment (workspace) for a symbol name matching
+  the one requested
+* Search the namespace of each of the packages on the search list
+
+The search list can be returned using the `

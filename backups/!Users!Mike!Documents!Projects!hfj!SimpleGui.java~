@@ -1,0 +1,21 @@
+import javax.swing.*;
+
+public class SimpleGui1 {
+    public static boid main (String[] args) {
+        // Make a frame and a widget
+        JFrame frame = new JFrame();
+        JButton button = new JButton("click me");
+
+        // Makes program quit when window is closed
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        // Adds button to frame's content pane
+        frame.getContentPane().add(button);
+
+        // Give the frame a size in pixels
+        frame.setSize(300, 300);
+
+        // Make the frame visible
+        frame.setVisible(true);
+    }
+}

@@ -1,0 +1,96 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Configure Cask/Pallet for Easy Package Management ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(require 'cask "/usr/local/share/emacs/site-lisp/cask.el")
+(cask-initialize)
+(require 'pallet)
+(pallet-mode t)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Settings and Design;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Open emacs in current frame from command line
+(setq ns-pop-up-frames nil)
+
+; Emacs opens in front of terminal
+(x-focus-frame nil)
+
+; Delete selection mode
+(delete-selection-mode 1)
+
+; Use visual bell
+;; quiet, please! No dinging!
+(setq visible-bell 1)
+
+; Start full height
+(defun custom-set-frame-size ()
+  (add-to-list 'default-frame-alist '(height . 58))
+  (add-to-list 'default-frame-alist '(width . 80)))
+(custom-set-frame-size)
+(add-hook 'before-make-frame-hook 'custom-set-frame-size)
+;(set-frame-height
+; (selected-frame)
+; (/ (display-pixel-height) (frame-char-height)))
+
+; Set custom theme path and load zenburn theme on start
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(load-theme 'zenburn t)
+
+; Set Emacs to save buffers on exit
+(require 'desktop)
+  (desktop-save-mode 1)
+  (defun my-desktop-save ()
+    (interactive)
+    ;; Don't call desktop-save-in-desktop-dir, as it prints a message.
+    (if (eq (desktop-owner) (emacs-pid))
+        (desktop-save desktop-dirname)))
+  (add-hook 'auto-save-hook 'my-desktop-save)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Package Configurations ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Send elpy to homebrew python
+(setq elpy-rpc-python-command "/usr/local/bin/python")
+(setq elpy-rpc-backend "jedi")
+
+; Enable Julia shell within ESS
+(require 'ess-site)
+(setq inferior-julia-program-name "/usr/local/bin/julia")
+
+; Enable automatic bracket fallback
+(defun autopair-insert-opening ()
+     (interactive)
+     (when (autopair-pair-p)
+       (setq autopair-action (list 'opening (autopair-find-pair) (point))))
+     (autopair-fallback))
+
+; Enable polymode for .Rmd editing
+(setq load-path
+      (append '("/Users/Mike/.emacs.d/.cask/24.5.1/elpa/polymode-20150430.934")
+              load-path))
+(require 'poly-R)
+(require 'poly-markdown)
+(add-to-list 'auto-mode-alist '("\\.Rmd" . poly-markdown+r-mode))
+
+
+; ess-mode configuration
+(setq ess-ask-for-ess-directory nil)
+(setq inferior-R-program-name "/usr/local/bin/R") 
+(setq ess-local-process-name "R")
+(setq ansi-color-for-comint-mode 'filter) 
+(setq comint-scroll-to-bottom-on-input t) 
+(setq comint-scroll-to-bottom-on-output t) 
+(setq comint-move-point-for-output t)
+(setq ess-eval-visibly-p nil)
+
+; R process key bindings
+(add-hook 'inferior-ess-mode-hook
+    '(lambda nil
+          (define-key inferior-ess-mode-map [\C-up]
+              'comint-previous-matching-input-from-input)
+          (define-key inferior-ess-mode-map [\C-down]
+              'comint-next-matching-input-from-input)
+          (define-key inferior-ess-mode-map [\C-x \t]
+              'comint-dynamic-complete-filename)
+     )
+ )

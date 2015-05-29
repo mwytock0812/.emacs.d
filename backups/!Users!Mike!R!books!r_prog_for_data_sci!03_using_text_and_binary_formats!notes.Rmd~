@@ -1,0 +1,6 @@
+# Chapter 03: Using Textual and Binary Formats for Storing Data
+The `dump()` and `dput()` functions place data in a situation between
+binary data representations and file formats like CSV. They are
+usefult because they preserve _metadata_ and all the data are
+editable. This can preserve the class of each column of a table or the
+levels of a factor variable.

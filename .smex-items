@@ -1,0 +1,31 @@
+
+;; ----- smex-history -----
+(
+ elpy-config
+ list-packages
+ R
+ package-refresh-contents
+ multi-term
+ package-install
+ replace-regexp
+)
+
+;; ----- smex-data -----
+(
+ (list-packages . 11)
+ (R . 22)
+ (ansi-term . 5)
+ (ess-roxygen-menu . 1)
+ (add-change-log-entry . 2)
+ (toggle-frame-fullscreen . 1)
+ (julia . 4)
+ (inferior-julia . 5)
+ (julia-mode . 2)
+ (fundamental-mode . 1)
+ (inferior-julia-mode . 1)
+ (replace-regexp . 2)
+ (package-install . 1)
+ (multi-term . 2)
+ (package-refresh-contents . 1)
+ (elpy-config . 5)
+)

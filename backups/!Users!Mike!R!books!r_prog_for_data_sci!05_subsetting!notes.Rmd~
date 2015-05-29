@@ -1,0 +1,5 @@
+# Chapter 5: Subsetting R Objects
+
+There are a few operators that are used to subset in R
+* `[` returns an object of the same class as the original. It can be used to select multiple elements of an object
+* 

@@ -1,0 +1,184 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri May 29 15:08:27 2015
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21864 47403 511339 0) (desktop . "206") "Mike@MacBook-Pro.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 10) (right-fringe . 11) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen) (display . "MacBook-Pro.local") (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (visibility . t) (frameset--id . "CA47-8823-98B0-06AE") (frameset--mini t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (height . 58) (width . 80) (left . 826) (top . 23)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 5) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 112) (min-pixel-width . 70) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 35) (min-pixel-height-safe . 28) (min-pixel-width-safe . 14)) vc (pixel-width . 581) (pixel-height . 798) (total-width . 83) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 581) (pixel-height . 406) (total-width . 83) (total-height . 29) (normal-height . 0.5) (normal-width . 1.0) (buffer "init.el" (selected) (hscroll . 0) (fringes 10 11 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1627) (start . 1289))) (leaf (last . t) (pixel-width . 581) (pixel-height . 392) (total-width . 83) (total-height . 28) (normal-height . 0.5) (normal-width . 1.0) (buffer "boosting.py" (selected) (hscroll . 0) (fringes 10 11 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 253) (start . 1)))) (((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 10) (right-fringe . 11) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (environment) (display . "MacBook-Pro.local") (frameset--id . "C642-2517-11B8-FE2E") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (visibility . t) (height . 64) (width . 202) (left . 0) (top . 0)) ((min-height . 8) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 10) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 112) (min-pixel-width . 140) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 28) (min-pixel-width-safe . 28)) vc (pixel-width . 1436) (pixel-height . 882) (total-width . 205) (total-height . 63) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1436) (pixel-height . 434) (total-width . 205) (total-height . 31) (normal-height . 0.48484848484848486) (normal-width . 1.0) (buffer "log_reg.R" (selected . t) (hscroll . 0) (fringes 10 11 nil) (margins nil) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 1905) (start . 1481))) (hc (last . t) (pixel-width . 1436) (pixel-height . 448) (total-width . 205) (total-height . 32) (normal-height . 0.5151515151515151) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 728) (pixel-height . 448) (total-width . 104) (total-height . 32) (normal-height . 1.0) (normal-width . 0.5060240963855422) (buffer "explore.Rmd" (selected) (hscroll . 23) (fringes 10 11 nil) (margins nil) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 8203) (start . 7590))) (leaf (last . t) (pixel-width . 708) (pixel-height . 448) (total-width . 101) (total-height . 32) (normal-height . 1.0) (normal-width . 0.4939759036144578) (buffer "ann.Rmd[R]" (selected) (hscroll . 0) (fringes 10 11 nil) (margins nil) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 847) (start . 465))))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("jedi" "split)" "elpy" "py" "python-mode" "s" "auc" "julia" "ess-" "eclim" "ecl" "eclim" "julia" "require" "emacs-ecl" "java"))
+(setq register-alist nil)
+(setq file-name-history '("/Users/Mike/Documents/Projects/mosquitoes/code/boosting.py" "/Users/Mike/.emacs.d/init.el" "/Users/Mike/Documents/Projects/mosquitoes/code/boosting.py" "/Users/Mike/Documents/Projects/mosquitoes/code/boosting.csv" "/Users/Mike/Documents/Projects/mosquitoes/code/svm.py" "/Users/Mike/Documents/Projects/mosquitoes/code/boosting.py" "/Users/Mike/Documents/Projects/mosquitoes/code/random_forest_starter.py" "/Users/Mike/Documents/Projects/mosquitoes/random_forest_starter.py" "/Users/Mike/R/books/r_prog_for_data_sci/13_loop_functions/notes.Rmd" "/Users/Mike/R/books/r_prog_for_data_sci/12_coding_standards/notes.Rmd" "/Users/Mike/.zshrc" "/Users/Mike/R/books/r_prog_for_data_sci/11_scoping/notes.Rmd" "/Users/Mike/R/books/r_prog_for_data_sci/10_dplyr/notes.Rmd" "/Users/Mike/R/books/r_prog_for_data_sci/09_functions/notes.Rmd" "/Users/Mike/R/books/r_prog_for_data_sci/05_subsetting/08_control_structures/notes.Rmd" "/Users/Mike/R/books/r_prog_for_data_sci/07_dates_and_times/notes.Rmd" "/Users/Mike/R/books/r_prog_for_data_sci/06_vectorized_operations/notes.Rmd" "/Users/Mike/R/books/r_prog_for_data_sci/05_subsetting/notes.Rmd" "/Users/Mike/R/mosquitoes/scripts/log_reg.R" "/Users/Mike/R/mosquitoes/scripts/ann.Rmd" "/Users/Mike/R/mosquitoes/scripts/log_reg.R" "/Users/Mike/R/mosquitoes/scripts/explore.Rmd" "/Users/Mike/R/books/r_prog_for_data_sci/04_interfaces_to_the_outside_world/notes.Rmd" "/Users/Mike/R/books/r_prog_for_data_sci/03_using_text_and_binary_formats/notes.Rmd" "ChangeLog" "/Users/Mike/R/books/r_prog_for_data_sci/02_getting_data_in_and_out/notes.Rmd" "/Users/Mike/Documents/Projects/hfj/MyDrawPanel.java" "/Users/Mike/Documents/Projects/hfj/SimpleGui1B.java" "/Users/Mike/Documents/Projects/hfj/SimpleGui1.java" "/Users/Mike/.emacs.d/init.el" "/Users/Mike/.emacs.d/Cask" "/Users/Mike/Documents/Projects/hfj/SimpleGui1.java" "/Users/Mike/Documents/Projects/hfj/SimpleGui.java" "/Users/Mike/Documents/Projects/hfj/gui.java" "/Users/Mike/.emacs.d/init.el" "/Users/Mike/R/mosquitoes/scripts/log_reg.R" "/Users/Mike/R/mosquitoes/scripts/explore.Rmd" "/Users/Mike/R/mosquitoes/scripts/log_reg.R" "/Users/Mike/R/mosquitoes/scripts/explore.Rmd" "/Users/Mike/R/cheat_sheet.txt" "/Users/Mike/R/mosquitoes/scripts/explore.Rmd" "/Users/Mike/R/mosquitoes/scripts/log_reg.R" "/Users/Mike/R/books/r_prog_for_data_sci/02_getting_data_in_and_out/notes.Rmd" "ChangeLog" "/Users/Mike/R/cheat_sheet.txt" "/Users/Mike/R/books/r_prog_for_data_sci/01_nuts_and_bolts/notes.Rmd" "/Users/Mike/R/books/r_prog_for_data_sci/01_nuts_and_bolts/notes.md" "/Users/Mike/.emacs.d/Cask" "/Users/Mike/R/books/r_prog_for_data_sci/01_nuts_and_bolts/notes.md" "/Users/Mike/R/books/r_prog_for_data_sci/01_nuts_and_bolts/notes.txt" "/Users/Mike/R/cheat_sheet.txt" "/Users/Mike/R/test.R" "~/R/" "/Users/Mike/emacs.d/init.el" "~/R/." "~/R" "~/R/" "/Users/Mike/.emacs.d/init.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/Mike/R/mosquitoes/scripts/log_reg.R"
+  "log_reg.R"
+  'ess-mode
+  '(eldoc-mode)
+  1905
+  '(1497 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/Documents/Projects/mosquitoes/code/boosting.py"
+  "boosting.py"
+  'python-mode
+  '(auto-fill-mode hi-lock-mode elpy-mode)
+  253
+  '(311 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/R/mosquitoes/scripts/ann.Rmd"
+  "ann.Rmd[R]"
+  'ess-mode
+  '(eldoc-mode poly-markdown+r-mode)
+  1353
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode hi-lock-mode)
+  1627
+  '(1597 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/R/mosquitoes/scripts/explore.Rmd"
+  "explore.Rmd"
+  'markdown-mode
+  '(auto-fill-mode poly-markdown+r-mode)
+  8203
+  '(1733 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/R/mosquitoes/scripts/ann.Rmd"
+  "ann.Rmd"
+  'markdown-mode
+  '(auto-fill-mode poly-markdown+r-mode)
+  1926
+  '(1838 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/R/books/r_prog_for_data_sci/13_loop_functions/notes.Rmd"
+  "notes.Rmd"
+  'markdown-mode
+  '(auto-fill-mode poly-markdown+r-mode)
+  4345
+  '(877 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/Documents/Projects/mosquitoes/code/svm.py"
+  "svm.py"
+  'python-mode
+  '(auto-fill-mode hi-lock-mode)
+  3146
+  '(3002 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/Documents/Projects/mosquitoes/code/boosting.csv"
+  "boosting.csv"
+  'fundamental-mode
+  nil
+  100
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/Documents/Projects/mosquitoes/code/random_forest_starter.py"
+  "random_forest_starter.py"
+  'python-mode
+  '(auto-fill-mode hi-lock-mode)
+  1
+  '(3018 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/R/books/r_prog_for_data_sci/12_coding_standards/notes.Rmd"
+  "notes.Rmd"
+  'markdown-mode
+  '(auto-fill-mode poly-markdown+r-mode)
+  213
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/R/books/r_prog_for_data_sci/11_scoping/notes.Rmd"
+  "notes.Rmd"
+  'markdown-mode
+  '(auto-fill-mode poly-markdown+r-mode)
+  6664
+  '(4644 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/R/books/r_prog_for_data_sci/09_functions/notes.Rmd"
+  "notes.Rmd"
+  'markdown-mode
+  '(auto-fill-mode poly-markdown+r-mode)
+  3762
+  '(2517 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/R/books/r_prog_for_data_sci/05_subsetting/notes.Rmd"
+  "notes.Rmd"
+  'markdown-mode
+  '(auto-fill-mode poly-markdown+r-mode)
+  3955
+  '(2988 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Mike/R/cheat_sheet.txt"
+  "cheat_sheet.txt"
+  'fundamental-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+

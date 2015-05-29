@@ -1,0 +1,11 @@
+Command   Description
+-------   -----------
+C-c C-c   Evaluate statement (single line eval)
+C-c C-l   Source entire file in R (store functions)
+C-up      Cycle through all statements starting with the entered text
+C-down    Cycle through all statements starting with the enetered text
+C-x tab   Dynamic filename completion
+C-c C-o   Insert roxygen documentation
+C-c C-b   Send entire buffer to R, so comments can be insterted between chunks
+C-x 4     Adds a new entry to the change log 
+C-u 78 #  Inserts 87 #s for use in section delimiters

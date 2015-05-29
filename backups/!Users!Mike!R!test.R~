@@ -1,0 +1,6 @@
+myFunction <- function()
+{
+    cat("running ....\n")
+}
+
+myFunction()

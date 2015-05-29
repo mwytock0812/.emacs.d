@@ -1,0 +1,10 @@
+# Chapter 10: Managing Data Frames with the `dplyr` Package
+## `dplyr` Grammar
+The `dplyr` package provides an optimized set of routines based on a
+grammar. Some of the verbs in this grammar are
+* `select`: returna  subset of the columns of a dataframe
+* `filter`: extract a subset of rows from a data frame based on
+  logical conditions
+* `arrange`: reorder rows of a data frame
+* `rename`: rename variables in a data frame
+* `mutate`: add new variables/columns or transform 

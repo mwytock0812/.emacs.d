@@ -1,0 +1,23 @@
+# Chapter 2: Getting Data in and out of R
+## 2.1 Reading and Writing Data
+The main functions for getting data into R
+* `read.table` and `read.csv` for reading in tabular data
+* `readLines` for reading lines of a text file
+* `source` for reading in R code files (opposite of `dump`)
+* `dget` for readingin R code files (opposite of `dput`)
+* `load` for reading in save workspaces
+* `unserialize` for reading single R objects in binary form
+
+The main functions for writing data from R
+* `write.table` for writing tabular data to text files
+* `writeLines` for writing character data line-by-line to a file or
+connection
+* `dump` for dumping textual representation of multiple R objects
+* `dput` for outputting a textual representation of an R object
+* `save` for saving an arbitrary number of R objects in a binary
+format
+* `serialize` for converting an R object into a binary format for
+  outputting to a connection
+
+
+## 2.2 Reading Data Files with `read.table()`

@@ -1,0 +1,213 @@
+# 05/01 - Reading In Data and Exploring
+The objective is to provide probabilities that the mosquitoes have
+Wnv. This is a regression problem. Possible avenues to explore are:
+* Logistic regression
+* Neural nets (with sigmoid fxn)
+* SVMs
+
+## Reading in Data
+We will use the `fread()` function from the `data.table` package to
+more easily read the data in. Then, read the data in and look at the 11 atributes:
+* 6 character attributes
+* 5 numeric attributes
+
+```R
+
+library(data.table)
+train <- fread("~/R/mosquitoes/train.csv")
+test <- fread("~/R/mosquitoes/test.csv")
+
+names(train)
+summary(train)
+
+```
+
+## Preparing Data
+Now, check on the factor levels:
+
+```R
+
+unique(train$Species)
+unique(test$Species)
+
+```
+
+Since the factor levels are different, we need to change the test set
+to be able to run logistic regression.
+
+```R
+
+# Pull out the data for Species as character objects
+vSpecies <- c(as.character(train$Species), as.character(test$Species))
+# Where the logical test is true, assign to "CULEX ERRATICUS"
+vSpecies[vSpecies == "UNSPECIFIED CULEX"] <- "CULEX ERRATICUS"
+# Convert species back into a factor variable
+vSpecies <- factor(vSpecies, levels = unique(vSpecies))
+
+```
+
+Now that the factor variable is set, we need to add the data back to
+the dataframe
+
+```R
+
+# Make a new feature with factor levels
+train[,Species2 := factor(vSpecies[1:nrow(train)], levels = unique(vSpecies))]
+test[,Species2 := factor(vSpecies[nrow(train)+1:length(vSpecies)], levels = unique(vSpecies))]
+
+```
+
+Break up the date feature into some components by using substrings.
+
+```R
+
+train[,dMonth := substr(train$Date, 6, 7)]
+train[,dYear := substr(train$Date, 1, 4)]
+test[,dMonth := substr(test$Date, 6, 7)]
+test[,dYear := substr(test$Date, 1, 4)]
+
+```
+## View Conditional Probabilities
+Investigating conditional probabilities gives an idea of how
+predictive each level of each feature is. Calling `order()` on `V1` displays the
+results in acending order. As it turns out, CULEX PIPIENS and July-Nov
+are more predictive
+
+```R
+
+train[,mean(WnvPresent), by = "Species"][order(V1)]
+train[,mean(WnvPresent), by = "Block"][order(V1)]
+train[,mean(WnvPresent), by = "dMonth"][order(V1)]
+
+```
+
+## Model the Data
+In order to perform cross-validation, we need to split up the training
+set. `train1` is the evaluation set while `train2` is the validation set.
+
+```R
+
+train1 <- train[dYear != 2011,]
+train2 <- train[dYear == 2011,]
+
+```
+
+Check the relative sizes of the two data sets.
+
+```R
+
+dim(train1)
+dim(train2)
+
+```
+Fit the logistic regression model using `glm()` to build the model and
+`predict()` to give the probabilities when predicting data in `train2`
+
+```R
+
+fitTrain1 <- glm(WnvPresent ~ dMonth + Species2 + Block, data = train1, family = "binomial")
+p2 <- predict(fitTrain1, newdata = train2, type = "response")
+
+```
+
+We can check for a reasonable AUC of the model against the unseen data
+(from 2011) in `train2`.
+
+```R
+
+library(Metrics)
+auc(train2$WnvPresent, p2)
+
+```
+Now, we can fit the full training set to the model so that the 2011
+data are used as well.
+
+```R
+
+fitFull <- glm(WnvPresent ~ dMonth + Species2 + Block, data = train, family = "binomial")
+levels(test$Species2)
+pSubmit <- predict(fitFull, newdata = test, type = "response")
+summary(pSubmit)
+
+```
+
+Running a `cbind()` on the `Id` field and the `pSubmit` data gives us
+the submission format:
+
+```R
+
+submissionFile <- cbind(test$Id, pSubmit)
+colnames(submissionFile) <- c("Id", "WnvPresent")
+options("scipen" = 100, "digits" = 8)
+
+```
+
+# 05/08 - Exploring Different Models
+
+Let's throw a lot of things into the model and see how it does
+
+```R
+
+fitEverything <- glm(WnvPresent ~ dMonth + Species2 + Block + Latitude + Longitude, data = train, family = "binomial")
+pSubmit <- predict(fitEverything, newdata = test, type = "response")
+summary(pSubmit)
+
+submissionFile <- cbind(test$Id, pSubmit)
+colnames(submissionFile) <- c("Id", "WnvPresent")
+options("scipen" = 100, "digits" = 8)
+write.csv(submissionFile, "logistic_regression_five_factors.csv", row.names = FALSE, quote = FALSE)
+
+```
+
+Looks like we got a marginally better model by adding that information
+in!
+
+# 05/09 - Exploring Naive Bayes
+
+Naive Bayes requires categorical features, so binning will be used. We
+can discretize the data by doing EDA on each of the features to look
+for natural cut points. If this is hard, we can use quantiles to
+divide the data into a fixed number of parts. Be careful doing this
+because it is easy to end up with many small categories without enough
+data in each category. Let's use `str()` to find out which variables
+will need to be discretized:
+
+```R
+
+str(train)
+
+```
+
+It looks like `Block`, `Latitude`, `Longitude`, `AddressAccuracy`,
+and `NumMosquitoes` need to be transformed. There are also numerous
+character vectors that need to become factor vectors (`Date`,
+`Address`, `Species`, `Street`, `Trap`...).
+
+This code will convert counts to factors:
+
+```R
+
+convertCounts <- function(x) {
+    x <- ifelse(x > 0, 1, 0) # if > 0, replace with 1, else 0
+    x <- factor(x, levels = c(0,1), labels(""No"", ""Yes""))
+    return(x)
+}
+
+```
+
+Apply the `convertCounts` function to the columns. We need to specify
+MARGIN = 2 for columns:
+
+```R
+
+train <- apply(train, MARGIN = 2, convertCounts)
+test <- apply(test, MARGIN = 2, convertCounts)
+
+```
+
+To do:
+* Reformat all character vectors to factors myvec$feature <-
+  factor(myvec$feature) for train and test sets
+* Explore and bin the numeric features for train and test sets
+* Run the analysis
+* Optimize the analysis
