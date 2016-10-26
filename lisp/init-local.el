@@ -14,6 +14,10 @@
 (require 'ein)
 (setq ein:use-auto-complete t)
 
+;;; Set up pyvenv
+(setenv "WORKON_HOME" "/anaconda/envs")
+(pyvenv-mode 1)
+
 ;;; Less obtrusive visible bell
 (defun my-terminal-visible-bell ()
   "A friendlier visual bell effect."
@@ -22,6 +26,10 @@
 
 (setq visible-bell       nil
       ring-bell-function #'my-terminal-visible-bell)
+
+;;; Makes frames transparent
+(set-frame-parameter (selected-frame) 'alpha '(98 98))
+(add-to-list 'default-frame-alist '(alpha 98 98))
 
 ;;; Load tide for TypeScript
 (add-hook 'typescript-mode-hook
@@ -33,6 +41,10 @@
             ;; company is an optional dependency. You have to
             ;; install it separately via package-install
             (company-mode-on)))
+
+;; hook up TSLint
+(eval-after-load 'flycheck
+  '(add-hook 'flycheck-mode-hook #'flycheck-typescript-tslint-setup))
 
 ;; aligns annotation to the right hand side
 (setq company-tooltip-align-annotations t)
